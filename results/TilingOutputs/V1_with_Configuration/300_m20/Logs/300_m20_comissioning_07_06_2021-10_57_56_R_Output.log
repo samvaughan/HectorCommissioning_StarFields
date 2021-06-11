@@ -1,0 +1,319 @@
+2021-06-07 10:58:23,628: - [1] "********************************************"
+[1] "Configuring field TilingOutputs/300_m20/DistortionCorrected/DC_tile_000.fld"
+[1] "********************************************"
+[1] "Identifying initial conflicts"
+  Probe_1st Probe_2nd PercentArea
+1         4         5        27.5
+2        11        16        28.4
+3        15        17         0.1
+[1] "Minimizing the overlaping area by rotating probes"
+[1] "Wrapping around MinimizeConflicts"
+[1] "Starting (again) with delta_ang = 20"
+[1] "19 galaxy probes are in! Let's put some standard stars probes!"
+[1] "Adding some standards."
+[1] "standard 1 configured successfully."
+[1] "standard 2 configured successfully."
+$pos
+            x          y
+1  -106.96414 -157.15309
+2    88.45795   62.52657
+3   -83.43402  186.02077
+4    35.74837 -132.14446
+5    54.75355 -121.26013
+6  -127.16363 -131.42516
+7   166.11278   49.80295
+8   -25.36200  -86.90478
+9  -202.95104    9.57215
+10  -28.63356   78.71082
+11  202.17837   11.42941
+12  -53.32985 -157.55346
+13  128.00146  -89.12702
+14  -49.14133  -17.88835
+15    6.56251  156.81008
+16  199.18865  -42.70476
+17  -12.95553  135.63433
+18  141.58056 -140.64741
+19   79.61006  -61.97700
+74   37.19872    0.40715
+37  -19.17962  217.29340
+
+$angs
+ [1]  2.5696981  3.5814074  0.4314475  1.3771492  1.3957457 -1.2973360
+ [7]  1.0286962 -0.8650239  4.6426055 -0.2024059 -1.3973164  2.2326915
+[13]  4.3891048 -0.7289040  0.2495471 -1.3176103  0.2636618  0.5425163
+[19]  4.1265246  3.7591726  0.6195416
+
+$cegs
+ [1] 1 2 3 1 1 3 1 3 3 3 2 1 2 3 3 2 3 1 2 2 3
+
+$stdflag
+[1] "none"
+
+[1] "19 galaxy probes and 2 standard probes are in! Let's put some standard guide probes!"
+             x          y
+123 -186.28592  -71.29396
+103 -181.24684  -47.48506
+94  -174.03747  -27.07176
+116 -105.51534 -129.58759
+119 -139.56168  -44.46018
+131 -106.49404  -53.57941
+114  -94.42923   -8.46509
+112  -25.01478  -41.38764
+125  -24.59228  -20.40098
+             x         y
+137 -167.79735 120.06093
+134 -180.43831  84.75455
+132 -117.35393 153.07835
+87   -31.36164 187.78185
+126 -175.56576  59.32761
+113  -91.79228 151.74583
+135 -140.90289  20.58900
+88   -18.08965  58.62483
+            x         y
+141  18.85695 207.04757
+93  121.94578 136.78338
+115  41.80404 153.19093
+121 112.33769  97.37219
+107  96.36376 112.63159
+109 130.56356  66.26233
+86   70.97191 120.60641
+120  83.33552  93.19622
+148   8.41461 121.81579
+136  27.25727 102.13310
+96    9.69085 103.27124
+92  100.85482  10.81115
+147  14.82693  90.04799
+143  61.98807  36.18238
+146  16.56851  49.31902
+105  17.31440  34.68167
+            x          y
+144   3.64852 -190.24092
+138  91.67472 -148.06563
+98   10.68238 -169.95004
+122 166.41453  -28.91210
+128 108.68847  -94.41489
+111  85.48999 -112.96144
+110   7.45556 -110.51119
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Minimizing conflicts with guide probe(s):"
+[1] "2"
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Minimizing conflicts with guide probe(s):"
+[1] "4"
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Minimizing conflicts with guide probe(s):"
+[1] "5" "1"
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Minimizing conflicts with guide probe(s):"
+[1] "6"
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Here you go, here's your complete configuration!"
+$pos
+            x          y
+1  -106.96414 -157.15309
+2    88.45795   62.52657
+3   -83.43402  186.02077
+4    35.74837 -132.14446
+5    54.75355 -121.26013
+6  -127.16363 -131.42516
+7   166.11278   49.80295
+8   -25.36200  -86.90478
+9  -202.95104    9.57215
+10  -28.63356   78.71082
+11  202.17837   11.42941
+12  -53.32985 -157.55346
+13  128.00146  -89.12702
+14  -49.14133  -17.88835
+15    6.56251  156.81008
+16  199.18865  -42.70476
+17  -12.95553  135.63433
+18  141.58056 -140.64741
+19   79.61006  -61.97700
+74   37.19872    0.40715
+37  -19.17962  217.29340
+
+$rads
+ [1] 190.10108 108.32535 203.87487 136.89450 133.04875 182.87472 173.41796
+ [8]  90.52995 203.17665  83.75723 202.50117 166.33450 155.97436  52.29592
+[15] 156.94734 203.71503 136.25167 199.56640 100.89059  37.20095 218.13821
+
+$angs
+ [1]  2.5696981  3.5814074  0.4314475  1.3771492  1.3957457 -1.2973360
+ [7]  1.0286962 -0.8650239  4.6426055 -0.2024059 -1.3973164  2.2326915
+[13]  4.3891048 -0.7289040  0.2495471 -1.3176103  0.2636618  0.5425163
+[19]  4.1265246  3.7591726  0.6195416
+
+$azAngs
+ [1]  0.9731845  3.7569017 -1.1491739  1.8349974  1.9949285  0.8018766
+ [7]  3.4328789  1.2868456 -0.0471299 -1.2218969  3.1980639  1.2444144
+[13]  2.5333563  0.3491084  4.6705633  2.9303962 -1.4755672  2.3595008
+[19]  2.4800952  3.1525375 -1.4827585
+
+$angs_azAng
+ [1] 1.5965136 6.1076910 1.5806215 5.8253372 5.6840025 4.1839727 3.8790027
+ [8] 4.1313159 4.6897354 1.0194910 1.6878050 0.9882771 1.8557485 5.2051729
+[15] 1.8621691 2.0351787 1.7392290 4.4662008 1.6464294 0.6066351 2.1023000
+
+$guidenum
+[1] 1 2 3 4 5 6
+
+$gpos
+             x          y
+123 -186.28592  -71.29396
+137 -167.79735  120.06093
+141   18.85695  207.04757
+144    3.64852 -190.24092
+103 -181.24684  -47.48506
+134 -180.43831   84.75455
+
+$grads
+[1] 199.4625 206.3264 207.9045 190.2759 187.3639 199.3522
+
+$gangs
+[1] 2.175063 2.902683 2.652870 4.476755 3.807496 3.018771
+
+$gazAngs
+[1]  0.3655152 -0.6210607  4.6215641  1.5899724  0.2562322 -0.4391273
+
+$gangs_gazAng
+[1] 1.809548 3.523743 4.314491 2.886783 3.551264 3.457898
+
+$swaps
+[1] FALSE
+
+$flags
+[1] "none"
+
+[1] "There were  0  unresolvable conflicts in the field"
+
+2021-06-07 10:58:23,628: - Loading required package: MASS
+Loading required package: plotrix
+Loading required package: sp
+
+Attaching package: ‘raster’
+
+The following objects are masked from ‘package:MASS’:
+
+    area, select
+
+
+Attaching package: ‘pracma’
+
+The following objects are masked from ‘package:astro’:
+
+    eta, kron
+
+
+Attaching package: ‘DescTools’
+
+The following object is masked from ‘package:pracma’:
+
+    Mode
+
+
+-----------------------------------------------------------
+PBS Mapping 2.72.1 -- Copyright (C) 2003-2021 Fisheries and Oceans Canada
+
+PBS Mapping comes with ABSOLUTELY NO WARRANTY;
+for details see the file COPYING.
+This is free software, and you are welcome to redistribute
+it under certain conditions, as outlined in the above file.
+
+A complete user guide 'PBSmapping-UG.pdf' is located at 
+/Library/Frameworks/R.framework/Versions/3.6/Resources/library/PBSmapping/doc/PBSmapping-UG.pdf
+
+Packaged on 2019-03-14
+Pacific Biological Station, Nanaimo
+
+All available PBS packages can be found at
+https://github.com/pbs-software
+
+To see demos, type '.PBSfigs()'.
+-----------------------------------------------------------
+
+
+Loading required package: R.oo
+Loading required package: R.methodsS3
+R.methodsS3 v1.7.1 (2016-02-15) successfully loaded. See ?R.methodsS3 for help.
+R.oo v1.23.0 successfully loaded. See ?R.oo for help.
+
+Attaching package: ‘R.oo’
+
+The following object is masked from ‘package:R.methodsS3’:
+
+    throw
+
+The following objects are masked from ‘package:raster’:
+
+    extend, trim
+
+The following objects are masked from ‘package:methods’:
+
+    getClasses, getMethods
+
+The following objects are masked from ‘package:base’:
+
+    attach, detach, load, save
+
+R.utils v2.9.0 successfully loaded. See ?R.utils for help.
+
+Attaching package: ‘R.utils’
+
+The following objects are masked from ‘package:raster’:
+
+    extract, resample
+
+The following object is masked from ‘package:utils’:
+
+    timestamp
+
+The following objects are masked from ‘package:base’:
+
+    cat, commandArgs, getOption, inherits, isOpen, nullfile, parse,
+    warnings
+
+rgeos version: 0.5-2, (SVN revision 621)
+ GEOS runtime version: 3.7.2-CAPI-1.11.2 
+ Linking to sp version: 1.3-1 
+ Polygon checking: TRUE 
+
+Error in data.frame(..., check.names = FALSE) : 
+  arguments imply differing number of rows: 21, 19
+Calls: cbind -> cbind -> data.frame
+Execution halted
+
+2021-06-07 10:58:23,629: - 	***Error in the tiling code! Exiting to debug***
+

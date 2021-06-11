@@ -1,0 +1,17 @@
+2021-06-08 15:55:01,258: - Robot Temperature: 19 C, Obs Temperature: 8 C. date=2021 07 10
+
+
+2021-06-08 15:55:01,264: - Adding extra columns to the target dataframe
+2021-06-08 15:55:01,268: - No 'in_progress_targets_dataframe.csv' file found, so no pre-made tiles will be loaded
+2021-06-08 15:55:01,269: - Total Targets in field to tile: 19
+
+2021-06-08 15:55:01,270: - Tile 0:
+2021-06-08 15:55:01,270: - 	Remaining Targets: 19
+2021-06-08 15:55:05,551: - 	Distortion-corrected tile saved at TilingOutputs/240_m20/DistortionCorrected/DC_tile_000.fld...
+2021-06-08 15:55:05,569: - FINISHED TILE 0
+
+
+2021-06-08 15:55:05,579: - 
+
+
+2021-06-08 15:55:05,580: - Done!

@@ -1,0 +1,175 @@
+2021-06-07 11:15:51,247: - Robot Temperature: 19 C, Obs Temperature: 8 C. date=2021 07 10
+
+
+2021-06-07 11:15:51,257: - Adding extra columns to the target dataframe
+2021-06-07 11:15:51,258: - Total Targets in field to tile: 1000
+
+2021-06-07 11:15:51,259: - Tile 0:
+2021-06-07 11:15:51,259: - 	Remaining Targets: 1000
+2021-06-07 11:15:56,798: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_000.fld...
+2021-06-07 11:15:56,798: - Tile 0: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_000.fld...
+2021-06-07 11:27:41,282: - FINISHED TILE 0
+
+
+2021-06-07 11:27:41,337: - Tile 1:
+2021-06-07 11:27:41,338: - 	Remaining Targets: 981
+2021-06-07 11:27:47,368: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_001.fld...
+2021-06-07 11:27:47,369: - Tile 1: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_001.fld...
+2021-06-07 11:28:36,252: - FINISHED TILE 1
+
+
+2021-06-07 11:28:36,305: - Tile 2:
+2021-06-07 11:28:36,305: - 	Remaining Targets: 962
+2021-06-07 11:28:41,920: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_002.fld...
+2021-06-07 11:28:41,921: - Tile 2: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_002.fld...
+2021-06-07 11:42:10,643: - FINISHED TILE 2
+
+
+2021-06-07 11:42:10,708: - Tile 3:
+2021-06-07 11:42:10,708: - 	Remaining Targets: 943
+2021-06-07 11:42:16,695: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_003.fld...
+2021-06-07 11:42:16,697: - Tile 3: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_003.fld...
+2021-06-07 11:59:16,116: - FINISHED TILE 3
+
+
+2021-06-07 11:59:16,178: - Tile 4:
+2021-06-07 11:59:16,178: - 	Remaining Targets: 924
+2021-06-07 11:59:24,677: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_004.fld...
+2021-06-07 11:59:24,677: - Tile 4: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_004.fld...
+2021-06-07 12:05:00,798: - FINISHED TILE 4
+
+
+2021-06-07 12:05:00,851: - Tile 5:
+2021-06-07 12:05:00,851: - 	Remaining Targets: 905
+2021-06-07 12:05:07,081: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_005.fld...
+2021-06-07 12:05:07,082: - Tile 5: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_005.fld...
+2021-06-07 12:06:08,124: - FINISHED TILE 5
+
+
+2021-06-07 12:06:08,188: - Tile 6:
+2021-06-07 12:06:08,188: - 	Remaining Targets: 886
+2021-06-07 12:06:10,671: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_006.fld...
+2021-06-07 12:06:10,671: - Tile 6: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_006.fld...
+2021-06-07 12:15:22,949: - FINISHED TILE 6
+
+
+2021-06-07 12:15:23,005: - Tile 7:
+2021-06-07 12:15:23,006: - 	Remaining Targets: 867
+2021-06-07 12:15:26,023: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_007.fld...
+2021-06-07 12:15:26,024: - Tile 7: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_007.fld...
+2021-06-07 13:05:34,746: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 220.000, 867 targets remaining**
+2021-06-07 13:05:42,248: - Tile 7: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_007.fld...
+2021-06-07 13:24:59,570: - FINISHED TILE 7
+
+
+2021-06-07 13:24:59,628: - Tile 8:
+2021-06-07 13:24:59,629: - 	Remaining Targets: 848
+2021-06-07 13:25:05,301: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_008.fld...
+2021-06-07 13:25:05,302: - Tile 8: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_008.fld...
+2021-06-07 13:29:28,932: - FINISHED TILE 8
+
+
+2021-06-07 13:29:28,997: - Tile 9:
+2021-06-07 13:29:28,997: - 	Remaining Targets: 829
+2021-06-07 13:29:34,794: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_009.fld...
+2021-06-07 13:29:34,795: - Tile 9: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_009.fld...
+2021-06-07 14:19:43,562: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 220.000, 829 targets remaining**
+2021-06-07 14:19:49,163: - Tile 9: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_009.fld...
+2021-06-07 14:59:17,712: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 220.000, 829 targets remaining**
+2021-06-07 14:59:23,375: - Tile 9: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_009.fld...
+2021-06-07 15:15:35,972: - FINISHED TILE 9
+
+
+2021-06-07 15:15:36,101: - Tile 10:
+2021-06-07 15:15:36,101: - 	Remaining Targets: 810
+2021-06-07 15:15:41,693: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_010.fld...
+2021-06-07 15:15:41,693: - Tile 10: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_010.fld...
+2021-06-07 15:40:44,337: - FINISHED TILE 10
+
+
+2021-06-07 15:40:44,408: - Tile 11:
+2021-06-07 15:40:44,408: - 	Remaining Targets: 791
+2021-06-07 15:40:50,468: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_011.fld...
+2021-06-07 15:40:50,468: - Tile 11: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_011.fld...
+2021-06-07 15:44:17,715: - FINISHED TILE 11
+
+
+2021-06-07 15:44:17,781: - Tile 12:
+2021-06-07 15:44:17,781: - 	Remaining Targets: 772
+2021-06-07 15:44:23,883: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_012.fld...
+2021-06-07 15:44:23,883: - Tile 12: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_012.fld...
+2021-06-07 16:16:56,292: - FINISHED TILE 12
+
+
+2021-06-07 16:16:56,383: - Tile 13:
+2021-06-07 16:16:56,383: - 	Remaining Targets: 753
+2021-06-07 16:17:02,198: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_013.fld...
+2021-06-07 16:17:02,198: - Tile 13: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_013.fld...
+2021-06-07 16:29:54,405: - FINISHED TILE 13
+
+
+2021-06-07 16:29:54,501: - Tile 14:
+2021-06-07 16:29:54,501: - 	Remaining Targets: 734
+2021-06-07 16:30:00,803: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_014.fld...
+2021-06-07 16:30:00,804: - Tile 14: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_014.fld...
+2021-06-07 16:48:11,839: - FINISHED TILE 14
+
+
+2021-06-07 16:48:11,924: - Tile 15:
+2021-06-07 16:48:11,924: - 	Remaining Targets: 715
+2021-06-07 16:48:17,629: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_015.fld...
+2021-06-07 16:48:17,630: - Tile 15: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_015.fld...
+2021-06-07 16:53:04,030: - FINISHED TILE 15
+
+
+2021-06-07 16:53:04,094: - Tile 16:
+2021-06-07 16:53:04,095: - 	Remaining Targets: 696
+2021-06-07 16:53:10,990: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_016.fld...
+2021-06-07 16:53:10,990: - Tile 16: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_016.fld...
+2021-06-07 17:10:05,887: - FINISHED TILE 16
+
+
+2021-06-07 17:10:05,962: - Tile 17:
+2021-06-07 17:10:05,962: - 	Remaining Targets: 677
+2021-06-07 17:10:11,444: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_017.fld...
+2021-06-07 17:10:11,444: - Tile 17: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_017.fld...
+2021-06-07 17:11:57,678: - FINISHED TILE 17
+
+
+2021-06-07 17:11:57,748: - Tile 18:
+2021-06-07 17:11:57,748: - 	Remaining Targets: 658
+2021-06-07 17:12:03,129: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_018.fld...
+2021-06-07 17:12:03,130: - Tile 18: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_018.fld...
+2021-06-07 17:12:37,328: - FINISHED TILE 18
+
+
+2021-06-07 17:12:37,400: - Tile 19:
+2021-06-07 17:12:37,400: - 	Remaining Targets: 639
+2021-06-07 17:12:42,765: - 	Distortion-corrected tile saved at TilingOutputs/300_m20/DistortionCorrected/DC_tile_019.fld...
+2021-06-07 17:12:42,765: - Tile 19: 
+	Running Configuration code on file TilingOutputs/300_m20/DistortionCorrected/DC_tile_019.fld...

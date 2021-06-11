@@ -1,0 +1,339 @@
+2021-06-08 14:07:03,265: - Robot Temperature: 19 C, Obs Temperature: 8 C. date=2021 07 10
+
+
+2021-06-08 14:07:03,268: - Adding extra columns to the target dataframe
+2021-06-08 14:07:03,269: - No 'in_progress_targets_dataframe.csv' file found, so no pre-made tiles will be loaded
+2021-06-08 14:07:03,269: - Total Targets in field to tile: 1000
+
+2021-06-08 14:07:03,269: - Tile 0:
+2021-06-08 14:07:03,269: - 	Remaining Targets: 1000
+2021-06-08 14:07:09,610: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_000.fld...
+2021-06-08 14:07:09,617: - FINISHED TILE 0
+
+
+2021-06-08 14:07:09,663: - Tile 1:
+2021-06-08 14:07:09,663: - 	Remaining Targets: 981
+2021-06-08 14:07:10,907: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_001.fld...
+2021-06-08 14:07:10,916: - FINISHED TILE 1
+
+
+2021-06-08 14:07:10,965: - Tile 2:
+2021-06-08 14:07:10,966: - 	Remaining Targets: 962
+2021-06-08 14:07:12,199: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_002.fld...
+2021-06-08 14:07:12,208: - FINISHED TILE 2
+
+
+2021-06-08 14:07:12,263: - Tile 3:
+2021-06-08 14:07:12,263: - 	Remaining Targets: 943
+2021-06-08 14:07:13,423: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_003.fld...
+2021-06-08 14:07:13,432: - FINISHED TILE 3
+
+
+2021-06-08 14:07:13,483: - Tile 4:
+2021-06-08 14:07:13,483: - 	Remaining Targets: 924
+2021-06-08 14:07:14,621: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_004.fld...
+2021-06-08 14:07:14,633: - FINISHED TILE 4
+
+
+2021-06-08 14:07:14,688: - Tile 5:
+2021-06-08 14:07:14,688: - 	Remaining Targets: 905
+2021-06-08 14:07:15,825: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_005.fld...
+2021-06-08 14:07:15,835: - FINISHED TILE 5
+
+
+2021-06-08 14:07:15,891: - Tile 6:
+2021-06-08 14:07:15,891: - 	Remaining Targets: 886
+2021-06-08 14:07:17,021: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_006.fld...
+2021-06-08 14:07:17,031: - FINISHED TILE 6
+
+
+2021-06-08 14:07:17,083: - Tile 7:
+2021-06-08 14:07:17,083: - 	Remaining Targets: 867
+2021-06-08 14:07:18,175: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_007.fld...
+2021-06-08 14:07:18,185: - FINISHED TILE 7
+
+
+2021-06-08 14:07:18,238: - Tile 8:
+2021-06-08 14:07:18,238: - 	Remaining Targets: 848
+2021-06-08 14:07:19,315: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_008.fld...
+2021-06-08 14:07:19,325: - FINISHED TILE 8
+
+
+2021-06-08 14:07:19,380: - Tile 9:
+2021-06-08 14:07:19,380: - 	Remaining Targets: 829
+2021-06-08 14:07:20,437: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_009.fld...
+2021-06-08 14:07:20,446: - FINISHED TILE 9
+
+
+2021-06-08 14:07:20,501: - Tile 10:
+2021-06-08 14:07:20,501: - 	Remaining Targets: 810
+2021-06-08 14:07:21,561: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_010.fld...
+2021-06-08 14:07:21,571: - FINISHED TILE 10
+
+
+2021-06-08 14:07:21,626: - Tile 11:
+2021-06-08 14:07:21,626: - 	Remaining Targets: 791
+2021-06-08 14:07:22,679: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_011.fld...
+2021-06-08 14:07:22,690: - FINISHED TILE 11
+
+
+2021-06-08 14:07:22,749: - Tile 12:
+2021-06-08 14:07:22,749: - 	Remaining Targets: 772
+2021-06-08 14:07:23,798: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_012.fld...
+2021-06-08 14:07:23,808: - FINISHED TILE 12
+
+
+2021-06-08 14:07:23,864: - Tile 13:
+2021-06-08 14:07:23,864: - 	Remaining Targets: 753
+2021-06-08 14:07:24,876: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_013.fld...
+2021-06-08 14:07:24,886: - FINISHED TILE 13
+
+
+2021-06-08 14:07:24,975: - Tile 14:
+2021-06-08 14:07:24,975: - 	Remaining Targets: 734
+2021-06-08 14:07:26,004: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_014.fld...
+2021-06-08 14:07:26,014: - FINISHED TILE 14
+
+
+2021-06-08 14:07:26,074: - Tile 15:
+2021-06-08 14:07:26,074: - 	Remaining Targets: 715
+2021-06-08 14:07:27,064: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_015.fld...
+2021-06-08 14:07:27,074: - FINISHED TILE 15
+
+
+2021-06-08 14:07:27,134: - Tile 16:
+2021-06-08 14:07:27,134: - 	Remaining Targets: 696
+2021-06-08 14:07:28,129: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_016.fld...
+2021-06-08 14:07:28,139: - FINISHED TILE 16
+
+
+2021-06-08 14:07:28,201: - Tile 17:
+2021-06-08 14:07:28,201: - 	Remaining Targets: 677
+2021-06-08 14:07:29,191: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_017.fld...
+2021-06-08 14:07:29,201: - FINISHED TILE 17
+
+
+2021-06-08 14:07:29,264: - Tile 18:
+2021-06-08 14:07:29,264: - 	Remaining Targets: 658
+2021-06-08 14:07:30,241: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_018.fld...
+2021-06-08 14:07:30,251: - FINISHED TILE 18
+
+
+2021-06-08 14:07:30,317: - Tile 19:
+2021-06-08 14:07:30,318: - 	Remaining Targets: 639
+2021-06-08 14:07:32,043: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_019.fld...
+2021-06-08 14:07:32,052: - FINISHED TILE 19
+
+
+2021-06-08 14:07:32,116: - Tile 20:
+2021-06-08 14:07:32,116: - 	Remaining Targets: 620
+2021-06-08 14:07:33,097: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_020.fld...
+2021-06-08 14:07:33,107: - FINISHED TILE 20
+
+
+2021-06-08 14:07:33,171: - Tile 21:
+2021-06-08 14:07:33,171: - 	Remaining Targets: 601
+2021-06-08 14:07:34,128: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_021.fld...
+2021-06-08 14:07:34,138: - FINISHED TILE 21
+
+
+2021-06-08 14:07:34,206: - Tile 22:
+2021-06-08 14:07:34,206: - 	Remaining Targets: 582
+2021-06-08 14:07:35,171: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_022.fld...
+2021-06-08 14:07:35,182: - FINISHED TILE 22
+
+
+2021-06-08 14:07:35,248: - Tile 23:
+2021-06-08 14:07:35,248: - 	Remaining Targets: 563
+2021-06-08 14:07:36,166: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_023.fld...
+2021-06-08 14:07:36,176: - FINISHED TILE 23
+
+
+2021-06-08 14:07:36,243: - Tile 24:
+2021-06-08 14:07:36,243: - 	Remaining Targets: 544
+2021-06-08 14:07:37,158: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_024.fld...
+2021-06-08 14:07:37,168: - FINISHED TILE 24
+
+
+2021-06-08 14:07:37,237: - Tile 25:
+2021-06-08 14:07:37,237: - 	Remaining Targets: 525
+2021-06-08 14:07:38,151: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_025.fld...
+2021-06-08 14:07:38,161: - FINISHED TILE 25
+
+
+2021-06-08 14:07:38,232: - Tile 26:
+2021-06-08 14:07:38,233: - 	Remaining Targets: 506
+2021-06-08 14:07:39,121: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_026.fld...
+2021-06-08 14:07:39,131: - FINISHED TILE 26
+
+
+2021-06-08 14:07:39,201: - Tile 27:
+2021-06-08 14:07:39,201: - 	Remaining Targets: 487
+2021-06-08 14:07:40,107: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_027.fld...
+2021-06-08 14:07:40,117: - FINISHED TILE 27
+
+
+2021-06-08 14:07:40,191: - Tile 28:
+2021-06-08 14:07:40,191: - 	Remaining Targets: 468
+2021-06-08 14:07:41,088: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_028.fld...
+2021-06-08 14:07:41,098: - FINISHED TILE 28
+
+
+2021-06-08 14:07:41,173: - Tile 29:
+2021-06-08 14:07:41,173: - 	Remaining Targets: 449
+2021-06-08 14:07:42,088: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_029.fld...
+2021-06-08 14:07:42,098: - FINISHED TILE 29
+
+
+2021-06-08 14:07:42,172: - Tile 30:
+2021-06-08 14:07:42,172: - 	Remaining Targets: 430
+2021-06-08 14:07:43,049: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_030.fld...
+2021-06-08 14:07:43,059: - FINISHED TILE 30
+
+
+2021-06-08 14:07:43,136: - Tile 31:
+2021-06-08 14:07:43,136: - 	Remaining Targets: 411
+2021-06-08 14:07:44,019: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_031.fld...
+2021-06-08 14:07:44,029: - FINISHED TILE 31
+
+
+2021-06-08 14:07:44,103: - Tile 32:
+2021-06-08 14:07:44,103: - 	Remaining Targets: 392
+2021-06-08 14:07:45,003: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_032.fld...
+2021-06-08 14:07:45,015: - FINISHED TILE 32
+
+
+2021-06-08 14:07:45,089: - Tile 33:
+2021-06-08 14:07:45,090: - 	Remaining Targets: 373
+2021-06-08 14:07:45,996: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_033.fld...
+2021-06-08 14:07:46,007: - FINISHED TILE 33
+
+
+2021-06-08 14:07:46,085: - Tile 34:
+2021-06-08 14:07:46,085: - 	Remaining Targets: 354
+2021-06-08 14:07:46,972: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_034.fld...
+2021-06-08 14:07:46,984: - FINISHED TILE 34
+
+
+2021-06-08 14:07:47,062: - Tile 35:
+2021-06-08 14:07:47,062: - 	Remaining Targets: 335
+2021-06-08 14:07:47,961: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_035.fld...
+2021-06-08 14:07:47,972: - FINISHED TILE 35
+
+
+2021-06-08 14:07:48,050: - Tile 36:
+2021-06-08 14:07:48,050: - 	Remaining Targets: 316
+2021-06-08 14:07:48,953: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_036.fld...
+2021-06-08 14:07:48,963: - FINISHED TILE 36
+
+
+2021-06-08 14:07:49,042: - Tile 37:
+2021-06-08 14:07:49,043: - 	Remaining Targets: 297
+2021-06-08 14:07:49,904: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_037.fld...
+2021-06-08 14:07:49,914: - FINISHED TILE 37
+
+
+2021-06-08 14:07:49,995: - Tile 38:
+2021-06-08 14:07:49,995: - 	Remaining Targets: 278
+2021-06-08 14:07:50,885: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_038.fld...
+2021-06-08 14:07:50,896: - FINISHED TILE 38
+
+
+2021-06-08 14:07:50,976: - Tile 39:
+2021-06-08 14:07:50,977: - 	Remaining Targets: 259
+2021-06-08 14:07:51,834: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_039.fld...
+2021-06-08 14:07:51,844: - FINISHED TILE 39
+
+
+2021-06-08 14:07:51,925: - Tile 40:
+2021-06-08 14:07:51,925: - 	Remaining Targets: 240
+2021-06-08 14:07:52,788: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_040.fld...
+2021-06-08 14:07:52,798: - FINISHED TILE 40
+
+
+2021-06-08 14:07:52,882: - Tile 41:
+2021-06-08 14:07:52,882: - 	Remaining Targets: 221
+2021-06-08 14:07:53,766: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_041.fld...
+2021-06-08 14:07:53,777: - FINISHED TILE 41
+
+
+2021-06-08 14:07:53,860: - Tile 42:
+2021-06-08 14:07:53,860: - 	Remaining Targets: 202
+2021-06-08 14:07:54,709: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_042.fld...
+2021-06-08 14:07:54,720: - FINISHED TILE 42
+
+
+2021-06-08 14:07:54,804: - Tile 43:
+2021-06-08 14:07:54,804: - 	Remaining Targets: 183
+2021-06-08 14:07:55,650: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_043.fld...
+2021-06-08 14:07:55,661: - FINISHED TILE 43
+
+
+2021-06-08 14:07:55,746: - Tile 44:
+2021-06-08 14:07:55,746: - 	Remaining Targets: 164
+2021-06-08 14:07:56,617: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_044.fld...
+2021-06-08 14:07:56,628: - FINISHED TILE 44
+
+
+2021-06-08 14:07:56,713: - Tile 45:
+2021-06-08 14:07:56,713: - 	Remaining Targets: 145
+2021-06-08 14:07:57,575: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_045.fld...
+2021-06-08 14:07:57,586: - FINISHED TILE 45
+
+
+2021-06-08 14:07:57,672: - Tile 46:
+2021-06-08 14:07:57,672: - 	Remaining Targets: 126
+2021-06-08 14:07:58,555: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_046.fld...
+2021-06-08 14:07:58,566: - FINISHED TILE 46
+
+
+2021-06-08 14:07:58,653: - Tile 47:
+2021-06-08 14:07:58,653: - 	Remaining Targets: 107
+2021-06-08 14:07:59,500: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_047.fld...
+2021-06-08 14:07:59,511: - FINISHED TILE 47
+
+
+2021-06-08 14:07:59,600: - Tile 48:
+2021-06-08 14:07:59,600: - 	Remaining Targets: 88
+2021-06-08 14:08:00,486: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_048.fld...
+2021-06-08 14:08:00,496: - FINISHED TILE 48
+
+
+2021-06-08 14:08:00,587: - Tile 49:
+2021-06-08 14:08:00,587: - 	Remaining Targets: 69
+2021-06-08 14:08:01,435: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_049.fld...
+2021-06-08 14:08:01,445: - FINISHED TILE 49
+
+
+2021-06-08 14:08:01,543: - Tile 50:
+2021-06-08 14:08:01,543: - 	Remaining Targets: 50
+2021-06-08 14:08:02,375: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_050.fld...
+2021-06-08 14:08:02,386: - FINISHED TILE 50
+
+
+2021-06-08 14:08:02,477: - Tile 51:
+2021-06-08 14:08:02,477: - 	Remaining Targets: 35
+2021-06-08 14:08:03,364: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_051.fld...
+2021-06-08 14:08:03,374: - FINISHED TILE 51
+
+
+2021-06-08 14:08:03,468: - Tile 52:
+2021-06-08 14:08:03,468: - 	Remaining Targets: 24
+2021-06-08 14:08:04,453: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_052.fld...
+2021-06-08 14:08:04,464: - FINISHED TILE 52
+
+
+2021-06-08 14:08:04,557: - Tile 53:
+2021-06-08 14:08:04,557: - 	Remaining Targets: 19
+2021-06-08 14:08:06,264: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_053.fld...
+2021-06-08 14:08:06,275: - FINISHED TILE 53
+
+
+2021-06-08 14:08:06,368: - Tile 54:
+2021-06-08 14:08:06,368: - 	Remaining Targets: 13
+2021-06-08 14:08:07,210: - 	Distortion-corrected tile saved at TilingOutputs/270_m20/DistortionCorrected/DC_tile_054.fld...
+2021-06-08 14:08:07,221: - FINISHED TILE 54
+
+
+2021-06-08 14:08:07,315: - Tile 55:
+2021-06-08 14:08:07,315: - 	Remaining Targets: 7

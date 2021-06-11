@@ -1,0 +1,7 @@
+2021-06-08 16:15:51,048: - [1] "********************************************"
+[1] "Configuring field TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld"
+[1] "********************************************"
+[1] "We seem to have a clash before we've even started... Error in Tiling Code??"
+
+2021-06-08 16:15:51,049: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 220.000, 186 targets remaining**

@@ -1,0 +1,9 @@
+2021-06-07 10:02:14,461: - Robot Temperature: 19 C, Obs Temperature: 8 C. date=2021 07 10
+
+
+2021-06-07 10:02:14,463: - Adding extra columns to the target dataframe
+2021-06-07 10:02:14,465: - No 'in_progress_targets_dataframe.csv' file found, so no pre-made tiles will be loaded
+2021-06-07 10:02:14,466: - Total Targets in field to tile: 1000
+
+2021-06-07 10:02:14,466: - Tile 0:
+2021-06-07 10:02:14,466: - 	Remaining Targets: 1000

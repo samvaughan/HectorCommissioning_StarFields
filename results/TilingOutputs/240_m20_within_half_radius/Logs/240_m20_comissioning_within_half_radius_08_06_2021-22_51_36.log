@@ -1,0 +1,55 @@
+2021-06-08 22:51:36,943: - Robot Temperature: 19 C, Obs Temperature: 8 C. date=2021 07 10
+
+
+2021-06-08 22:51:36,965: - Adding extra columns to the target dataframe
+2021-06-08 22:51:36,974: - Total Targets in field to tile: 186
+
+2021-06-08 22:51:36,974: - Tile 0:
+2021-06-08 22:51:36,974: - 	Remaining Targets: 186
+2021-06-08 22:51:45,945: - 	Distortion-corrected tile saved at TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-08 22:51:45,948: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-08 23:41:14,395: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 220.000, 186 targets remaining**
+2021-06-08 23:41:20,713: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-09 00:31:29,834: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 220.000, 186 targets remaining**
+2021-06-09 00:31:36,574: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-09 01:21:45,548: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 220.000, 186 targets remaining**
+2021-06-09 01:21:52,275: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-09 02:12:01,649: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 220.000, 186 targets remaining**
+2021-06-09 02:12:08,355: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-09 02:38:26,653: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 220.000, 186 targets remaining**
+2021-06-09 02:38:33,321: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-09 03:28:42,046: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 242.000, 186 targets remaining**
+2021-06-09 03:28:48,927: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-09 04:18:57,409: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 242.000, 186 targets remaining**
+2021-06-09 04:19:04,668: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-09 05:09:13,290: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 242.000, 186 targets remaining**
+2021-06-09 05:09:19,178: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-09 05:59:27,707: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 242.000, 186 targets remaining**
+2021-06-09 05:59:34,921: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-09 06:49:43,567: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 242.000, 186 targets remaining**
+2021-06-09 06:49:49,990: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-09 07:32:49,781: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 264.000, 186 targets remaining**
+2021-06-09 07:32:56,026: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...

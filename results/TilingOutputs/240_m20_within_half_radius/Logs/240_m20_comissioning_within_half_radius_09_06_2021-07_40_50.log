@@ -1,0 +1,47 @@
+2021-06-09 07:40:51,003: - Robot Temperature: 19 C, Obs Temperature: 8 C. date=2021 07 10
+
+
+2021-06-09 07:40:51,019: - Adding extra columns to the target dataframe
+2021-06-09 07:40:51,022: - Total Targets in field to tile: 448
+
+2021-06-09 07:40:51,022: - Tile 0:
+2021-06-09 07:40:51,022: - 	Remaining Targets: 448
+2021-06-09 07:40:52,450: - 	Distortion-corrected tile saved at TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-09 07:40:52,451: - Tile 0: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-09 07:49:34,235: - FINISHED TILE 0
+
+
+2021-06-09 07:49:34,280: - Tile 1:
+2021-06-09 07:49:34,280: - 	Remaining Targets: 429
+2021-06-09 07:49:40,272: - 	Distortion-corrected tile saved at TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_001.fld...
+2021-06-09 07:49:40,272: - Tile 1: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_001.fld...
+2021-06-09 07:55:55,566: - FINISHED TILE 1
+
+
+2021-06-09 07:55:55,595: - Tile 2:
+2021-06-09 07:55:55,595: - 	Remaining Targets: 410
+2021-06-09 07:56:01,910: - 	Distortion-corrected tile saved at TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_002.fld...
+2021-06-09 07:56:01,911: - Tile 2: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_002.fld...
+2021-06-09 08:01:40,124: - FINISHED TILE 2
+
+
+2021-06-09 08:01:40,150: - Tile 3:
+2021-06-09 08:01:40,150: - 	Remaining Targets: 391
+2021-06-09 08:01:44,339: - 	Distortion-corrected tile saved at TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_003.fld...
+2021-06-09 08:01:44,339: - Tile 3: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_003.fld...
+2021-06-09 08:09:12,808: - FINISHED TILE 3
+
+
+2021-06-09 08:09:12,836: - Tile 4:
+2021-06-09 08:09:12,836: - 	Remaining Targets: 372
+2021-06-09 08:09:18,774: - 	Distortion-corrected tile saved at TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_004.fld...
+2021-06-09 08:09:18,775: - Tile 4: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_004.fld...
+2021-06-09 08:09:21,524: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 220.000, 372 targets remaining**
+2021-06-09 08:09:22,532: - Tile 4: 
+	Running Configuration code on file TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_004.fld...
