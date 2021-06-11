@@ -10,13 +10,14 @@ from pathlib import Path
 from tqdm import tqdm
 
 import yaml
-import argparse
+# import argparse
 
-parser = argparse.ArgumentParser()
-parser.add_argument("Config_filename")
-args = parser.parse_args()
+# parser = argparse.ArgumentParser()
+# parser.add_argument("Config_filename")
+# args = parser.parse_args()
 
-config_filename = Path(args.Config_filename)
+# config_filename = Path(args.Config_filename)
+config_filename = snakemake.input[0]
 
 with open(config_filename, 'r') as stream:
     try:
@@ -40,4 +41,5 @@ array, footprint = reproject_and_coadd(all_hdus, wcs_out, shape_out=shape_out, r
 new_hdu = fits.PrimaryHDU(data=array, header=wcs_out.to_header())
 new_hdu_footprint = fits.ImageHDU(data=footprint, header=wcs_out.to_header())
 hdulist = fits.HDUList([new_hdu, new_hdu_footprint])
-hdulist.writeto(config['final_image_filename'], overwrite=True)
+#hdulist.writeto(config['final_image_filename'], overwrite=True)
+hdulist.writeto(snakemake.output[0], overwrite=True)

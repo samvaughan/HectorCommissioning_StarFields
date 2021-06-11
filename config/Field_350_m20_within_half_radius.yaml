@@ -1,6 +1,6 @@
 # Star field at 300, -20
 
-
+filename : "config/Field_350_m20_within_half_radius.yaml"
 ##################### Star catalogue parameters
 centre_ra : 350
 centre_dec : -22

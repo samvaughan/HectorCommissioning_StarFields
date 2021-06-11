@@ -1,6 +1,6 @@
 # Star field at 350, -20
 
-
+filename : "config/Field_350_m20.yaml"
 ##################### Star catalogue parameters
 centre_ra : 351.4
 centre_dec : -22

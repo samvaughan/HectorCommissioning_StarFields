@@ -1,0 +1,83 @@
+Building DAG of jobs...
+Creating conda environment workflow/envs/scientific_python.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/envs/scientific_python.yaml:
+
+# >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
+
+    Traceback (most recent call last):
+      File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/conda/exceptions.py", line 1079, in __call__
+        return func(*args, **kwargs)
+      File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/conda_env/cli/main.py", line 80, in do_call
+        exit_code = getattr(module, func_name)(args, parser)
+      File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/conda_env/cli/main_create.py", line 81, in execute
+        spec = specs.detect(name=name, filename=get_filename(args.file), directory=os.getcwd())
+      File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/conda_env/specs/__init__.py", line 43, in detect
+        if spec.can_handle():
+      File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/conda_env/specs/yaml_file.py", line 18, in can_handle
+        self._environment = env.from_file(self.filename)
+      File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/conda_env/env.py", line 165, in from_file
+        return from_yaml(yamlstr, filename=filename)
+      File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/conda_env/env.py", line 143, in from_yaml
+        data = validate_keys(data, kwargs)
+      File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/conda_env/env.py", line 37, in validate_keys
+        new_data = data.copy() if data else {}
+    AttributeError: 'str' object has no attribute 'copy'
+
+`$ /opt/anaconda3/envs/snakemake/bin/mamba create --quiet --file /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/.snakemake/conda/cf578316a2cad7c44a998444e9720aa6.yaml --prefix /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/.snakemake/conda/cf578316a2cad7c44a998444e9720aa6`
+
+  environment variables:
+                 CIO_TEST=<not set>
+  CONDA_AUTO_UPDATE_CONDA=false
+        CONDA_DEFAULT_ENV=snakemake
+                CONDA_EXE=/opt/anaconda3/bin/conda
+             CONDA_PREFIX=/opt/anaconda3/envs/snakemake
+           CONDA_PREFIX_1=/opt/anaconda3
+    CONDA_PROMPT_MODIFIER=(snakemake)
+         CONDA_PYTHON_EXE=/opt/anaconda3/bin/python
+               CONDA_ROOT=/opt/anaconda3/envs/snakemake
+              CONDA_SHLVL=2
+           CURL_CA_BUNDLE=<not set>
+                     PATH=/Users/samvaughan/.cargo/bin:/opt/anaconda3/envs/snakemake/bin:/opt/an
+                          aconda3/condabin:/Users/samvaughan/anaconda3/bin:/usr/local/bin:/usr/b
+                          in:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/Users/samvau
+                          ghan/bin:/usr/local/mysql/bin
+               PYTHONPATH=:/Users/samvaughan/Code/CubeTools/:/Users/samvaughan/Code/python_scrip
+                          ts/:/Users/samvaughan/Code/:/Users/samvaughan/Code/PyStaff
+       REQUESTS_CA_BUNDLE=<not set>
+            SSL_CERT_FILE=<not set>
+
+     active environment : base
+    active env location : /opt/anaconda3/envs/snakemake
+            shell level : 2
+       user config file : /Users/samvaughan/.condarc
+ populated config files : 
+          conda version : 4.10.1
+    conda-build version : not installed
+         python version : 3.9.4.final.0
+       virtual packages : __osx=10.14.6=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /opt/anaconda3/envs/snakemake  (writable)
+      conda av data dir : /opt/anaconda3/envs/snakemake/etc/conda
+  conda av metadata url : https://repo.anaconda.com/pkgs/main
+           channel URLs : https://repo.anaconda.com/pkgs/main/osx-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/osx-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /opt/anaconda3/envs/snakemake/pkgs
+                          /Users/samvaughan/.conda/pkgs
+       envs directories : /opt/anaconda3/envs/snakemake/envs
+                          /Users/samvaughan/.conda/envs
+               platform : osx-64
+             user-agent : conda/4.10.1 requests/2.25.1 CPython/3.9.4 Darwin/18.7.0 OSX/10.14.6
+                UID:GID : 502:20
+             netrc file : /Users/samvaughan/.netrc
+           offline mode : False
+
+
+An unexpected error has occurred. Conda has prepared the above report.
+
+
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/deployment/conda.py", line 387, in create

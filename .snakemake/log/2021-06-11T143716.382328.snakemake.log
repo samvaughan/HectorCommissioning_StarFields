@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	run_profound_on_mosaic
+	1
+Select jobs to execute...
+
+[Fri Jun 11 14:37:16 2021]
+rule run_profound_on_mosaic:
+    input: config/Field_240_m20.yaml, results/Mosaics/Panstarrs_Mosiac_240_m20.fits
+    output: results/SkyMasks/Mosaic/segmap_StarField_240_-22.fits, results/ProfoundCatalogues/profound_catalogue_240_-22.csv
+    jobid: 0
+
+[Fri Jun 11 14:37:17 2021]
+Error in rule run_profound_on_mosaic:
+    jobid: 0
+    output: results/SkyMasks/Mosaic/segmap_StarField_240_-22.fits, results/ProfoundCatalogues/profound_catalogue_240_-22.csv
+
+RuleException:
+CalledProcessError in line 31 of /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile:
+Command 'set -euo pipefail;  /opt/anaconda3/envs/snakemake/bin/python3.9 /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/.snakemake/scripts/tmp68t9s0z0.run_profound_mosaic.py' returned non-zero exit status 1.
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2357, in run_wrapper
+  File "/Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile", line 31, in __rule_run_profound_on_mosaic
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 574, in _callback
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in cached_or_run
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2390, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/.snakemake/log/2021-06-11T143716.382328.snakemake.log

@@ -4,18 +4,18 @@ import yaml
 import argparse
 import shlex
 
-parser = argparse.ArgumentParser()
-parser.add_argument("Config_filename")
-args = parser.parse_args()
+# parser = argparse.ArgumentParser()
+# parser.add_argument("Config_filename")
+# args = parser.parse_args()
 
-config_filename = Path(args.Config_filename)
+# config_filename = Path(args.Config_filename)
 
-with open(config_filename, 'r') as stream:
-    try:
-        config = yaml.safe_load(stream)
-    except yaml.YAMLError as exc:
-        print(exc)
-
+# with open(config_filename, 'r') as stream:
+#     try:
+#         config = yaml.safe_load(stream)
+#     except yaml.YAMLError as exc:
+#         print(exc)
+config_filename = snakemake.input.config_filename
 
 # HP = pipeline.HectorPipe(config_filename=config_filename, Profit_files_location=Path("/Volumes/OtherFiles/Science/Panstarrs_Mosaic/SkyMasks/Mosaic/").expanduser())
 HP = pipeline.HectorPipe(config_filename=config_filename, Profit_files_location=Path("SkyMasks/Mosaic/").expanduser())
@@ -38,3 +38,5 @@ HP.df_targets['Mstar'] = -99
 
 HP.tile_field(configure_tiles=True, apply_distortion_correction=True, check_sky_fibres=True, date="2021 07 10 14:00") # Time in UTC
 HP.allocate_hexabundles_for_single_tile(0) 
+
+Path(snakemake.output.completed_flag_file[0]).touch()

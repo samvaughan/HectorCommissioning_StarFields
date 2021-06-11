@@ -1,6 +1,6 @@
 # Star field at 270, -20
 
-
+filename : "config/Field_270_m20_equally_spaced.yaml"
 ##################### Star catalogue parameters
 centre_ra : 270
 centre_dec : -22

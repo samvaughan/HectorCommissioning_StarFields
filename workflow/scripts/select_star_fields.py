@@ -11,19 +11,23 @@ import astropy.units as u
 
 from pathlib import Path
 import yaml
-import argparse
+# import argparse
 
-parser = argparse.ArgumentParser()
-parser.add_argument("Config_filename")
-args = parser.parse_args()
+# parser = argparse.ArgumentParser()
+# parser.add_argument("Config_filename")
+# args = parser.parse_args()
 
-config_filename = Path(args.Config_filename)
+# config_filename = Path(args.Config_filename)
 
-with open(config_filename, 'r') as stream:
-    try:
-        config = yaml.safe_load(stream)
-    except yaml.YAMLError as exc:
-        print(exc)
+# config_filename = Path(snakemake.input.config_filename[0])
+
+# with open(config_filename, 'r') as stream:
+#     try:
+#         config = yaml.safe_load(stream)
+#     except yaml.YAMLError as exc:
+#         print(exc)
+
+config = snakemake.config
 
 min_RA = config['centre_ra'] - config['star_catalogue_width_ra']
 max_RA = config['centre_ra'] + config['star_catalogue_width_ra']
@@ -113,9 +117,14 @@ target_stars.rename(columns=column_renamer, inplace=True)
 standard_stars.rename(columns=column_renamer, inplace=True)
 guide_stars.rename(columns=column_renamer, inplace=True)
 
-target_stars.to_csv(f"StarCatalogues/{config['final_star_catalogue_name_stem']}_targets.csv", index=False)
-standard_stars.to_csv(f"StarCatalogues/{config['final_star_catalogue_name_stem']}_standards.csv", index=False)
-guide_stars.to_csv(f"StarCatalogues/{config['final_star_catalogue_name_stem']}_guides.csv", index=False)
+# target_stars.to_csv(f"StarCatalogues/{config['final_star_catalogue_name_stem']}_targets.csv", index=False)
+# standard_stars.to_csv(f"StarCatalogues/{config['final_star_catalogue_name_stem']}_standards.csv", index=False)
+# guide_stars.to_csv(f"StarCatalogues/{config['final_star_catalogue_name_stem']}_guides.csv", index=False)
+
+
+target_stars.to_csv(snakemake.output.targets_file[0], index=False)
+standard_stars.to_csv(snakemake.output.standards_file[0], index=False)
+guide_stars.to_csv(snakemake.output.guides_file[0], index=False)
 
 
 

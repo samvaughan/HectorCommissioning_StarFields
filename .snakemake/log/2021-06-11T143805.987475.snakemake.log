@@ -1,0 +1,17 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	run_profound_on_mosaic
+	1
+Select jobs to execute...
+
+[Fri Jun 11 14:38:06 2021]
+rule run_profound_on_mosaic:
+    input: config/Field_240_m20.yaml, results/Mosaics/Panstarrs_Mosiac_240_m20.fits
+    output: results/SkyMasks/Mosaic/segmap_StarField_240_-22.fits, results/ProfoundCatalogues/profound_catalogue_240_-22.csv
+    jobid: 0
+
