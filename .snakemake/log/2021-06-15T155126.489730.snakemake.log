@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	all
+	1	run_tiling_within_half_radius
+	2
+Select jobs to execute...
+
+[Tue Jun 15 15:51:26 2021]
+rule run_tiling_within_half_radius:
+    input: config/Field_350_m20_within_half_radius.yaml, results/StarCatalogues/350_m22_subset_targets_within_0.75.csv, results/StarCatalogues/Panstarrs_match_Gaia_350_m20_standards.csv, results/StarCatalogues/Panstarrs_match_Gaia_350_m20_guides.csv, results/SkyMasks/Mosaic/segmap_StarField_351.4_-22.fits
+    output: results/TilingOutputs/350_m20_within_half_radius/completed_tiling.done
+    jobid: 1
+
+[Tue Jun 15 15:51:36 2021]
+Finished job 1.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Tue Jun 15 15:51:36 2021]
+localrule all:
+    input: results/TilingOutputs/350_m20_within_half_radius/completed_tiling.done
+    jobid: 0
+
+[Tue Jun 15 15:51:36 2021]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/.snakemake/log/2021-06-15T155126.489730.snakemake.log

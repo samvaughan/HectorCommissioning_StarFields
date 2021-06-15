@@ -1,0 +1,148 @@
+2021-06-15 15:26:20,914: - Robot Temperature: 19 C, Obs Temperature: 8 C. date=2021 07 10 14:00
+
+
+2021-06-15 15:26:20,918: - Adding extra columns to the target dataframe
+2021-06-15 15:26:20,920: - Total Targets in field to tile: 415
+
+2021-06-15 15:26:20,920: - Tile 0:
+2021-06-15 15:26:20,920: - 	Remaining Targets: 415
+2021-06-15 15:26:22,037: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_000.fld...
+2021-06-15 15:26:22,045: - FINISHED TILE 0
+
+
+2021-06-15 15:26:22,064: - Tile 1:
+2021-06-15 15:26:22,064: - 	Remaining Targets: 396
+2021-06-15 15:26:23,044: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_001.fld...
+2021-06-15 15:26:23,054: - FINISHED TILE 1
+
+
+2021-06-15 15:26:23,074: - Tile 2:
+2021-06-15 15:26:23,074: - 	Remaining Targets: 377
+2021-06-15 15:26:24,017: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_002.fld...
+2021-06-15 15:26:24,027: - FINISHED TILE 2
+
+
+2021-06-15 15:26:24,046: - Tile 3:
+2021-06-15 15:26:24,046: - 	Remaining Targets: 358
+2021-06-15 15:26:24,977: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_003.fld...
+2021-06-15 15:26:24,987: - FINISHED TILE 3
+
+
+2021-06-15 15:26:25,007: - Tile 4:
+2021-06-15 15:26:25,007: - 	Remaining Targets: 339
+2021-06-15 15:26:25,945: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_004.fld...
+2021-06-15 15:26:25,955: - FINISHED TILE 4
+
+
+2021-06-15 15:26:25,976: - Tile 5:
+2021-06-15 15:26:25,977: - 	Remaining Targets: 320
+2021-06-15 15:26:26,907: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_005.fld...
+2021-06-15 15:26:26,917: - FINISHED TILE 5
+
+
+2021-06-15 15:26:26,939: - Tile 6:
+2021-06-15 15:26:26,939: - 	Remaining Targets: 301
+2021-06-15 15:26:27,954: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_006.fld...
+2021-06-15 15:26:27,964: - FINISHED TILE 6
+
+
+2021-06-15 15:26:27,989: - Tile 7:
+2021-06-15 15:26:27,990: - 	Remaining Targets: 282
+2021-06-15 15:26:28,911: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_007.fld...
+2021-06-15 15:26:28,921: - FINISHED TILE 7
+
+
+2021-06-15 15:26:28,946: - Tile 8:
+2021-06-15 15:26:28,946: - 	Remaining Targets: 263
+2021-06-15 15:26:29,874: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_008.fld...
+2021-06-15 15:26:29,884: - FINISHED TILE 8
+
+
+2021-06-15 15:26:29,908: - Tile 9:
+2021-06-15 15:26:29,908: - 	Remaining Targets: 244
+2021-06-15 15:26:30,852: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_009.fld...
+2021-06-15 15:26:30,864: - FINISHED TILE 9
+
+
+2021-06-15 15:26:30,890: - Tile 10:
+2021-06-15 15:26:30,890: - 	Remaining Targets: 225
+2021-06-15 15:26:31,818: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_010.fld...
+2021-06-15 15:26:31,829: - FINISHED TILE 10
+
+
+2021-06-15 15:26:31,854: - Tile 11:
+2021-06-15 15:26:31,855: - 	Remaining Targets: 206
+2021-06-15 15:26:32,778: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_011.fld...
+2021-06-15 15:26:32,789: - FINISHED TILE 11
+
+
+2021-06-15 15:26:32,818: - Tile 12:
+2021-06-15 15:26:32,818: - 	Remaining Targets: 187
+2021-06-15 15:26:33,809: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_012.fld...
+2021-06-15 15:26:33,820: - FINISHED TILE 12
+
+
+2021-06-15 15:26:33,849: - Tile 13:
+2021-06-15 15:26:33,849: - 	Remaining Targets: 168
+2021-06-15 15:26:34,771: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_013.fld...
+2021-06-15 15:26:34,781: - FINISHED TILE 13
+
+
+2021-06-15 15:26:34,810: - Tile 14:
+2021-06-15 15:26:34,810: - 	Remaining Targets: 149
+2021-06-15 15:26:35,726: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_014.fld...
+2021-06-15 15:26:35,736: - FINISHED TILE 14
+
+
+2021-06-15 15:26:35,767: - Tile 15:
+2021-06-15 15:26:35,767: - 	Remaining Targets: 130
+2021-06-15 15:26:36,693: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_015.fld...
+2021-06-15 15:26:36,704: - FINISHED TILE 15
+
+
+2021-06-15 15:26:36,736: - Tile 16:
+2021-06-15 15:26:36,736: - 	Remaining Targets: 111
+2021-06-15 15:26:37,654: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_016.fld...
+2021-06-15 15:26:37,664: - FINISHED TILE 16
+
+
+2021-06-15 15:26:37,695: - Tile 17:
+2021-06-15 15:26:37,695: - 	Remaining Targets: 92
+2021-06-15 15:26:38,610: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_017.fld...
+2021-06-15 15:26:38,620: - FINISHED TILE 17
+
+
+2021-06-15 15:26:38,652: - Tile 18:
+2021-06-15 15:26:38,652: - 	Remaining Targets: 73
+2021-06-15 15:26:39,668: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_018.fld...
+2021-06-15 15:26:39,679: - FINISHED TILE 18
+
+
+2021-06-15 15:26:39,714: - Tile 19:
+2021-06-15 15:26:39,714: - 	Remaining Targets: 54
+2021-06-15 15:26:40,632: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_019.fld...
+2021-06-15 15:26:40,644: - FINISHED TILE 19
+
+
+2021-06-15 15:26:40,677: - Tile 20:
+2021-06-15 15:26:40,678: - 	Remaining Targets: 35
+2021-06-15 15:26:41,609: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_020.fld...
+2021-06-15 15:26:41,620: - FINISHED TILE 20
+
+
+2021-06-15 15:26:41,654: - Tile 21:
+2021-06-15 15:26:41,654: - 	Remaining Targets: 16
+2021-06-15 15:26:42,687: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_021.fld...
+2021-06-15 15:26:42,698: - FINISHED TILE 21
+
+
+2021-06-15 15:26:42,734: - Tile 22:
+2021-06-15 15:26:42,735: - 	Remaining Targets: 2
+2021-06-15 15:26:44,658: - 	Distortion-corrected tile saved at results/TilingOutputs/240_m20_within_half_radius/DistortionCorrected/DC_tile_022.fld...
+2021-06-15 15:26:44,669: - FINISHED TILE 22
+
+
+2021-06-15 15:26:44,705: - 
+
+
+2021-06-15 15:26:44,705: - Done!

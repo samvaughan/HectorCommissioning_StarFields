@@ -18,6 +18,12 @@ final_star_catalogue_name_stem : "Panstarrs_match_Gaia_350_m20"
 # Should be a string which astropy can parse
 date_for_observations : "2021-07-10 14:00"
 
+target_output_name : "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_targets.csv"
+guide_star_filename: "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_guides.csv"
+standard_star_filename: "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_standards.csv"
+
+
+
 ##################### Mosaic parameters
 individual_image_glob : "/Volumes/OtherFiles/Science/Panstarrs_Mosaic/350_m22/*.fits"
 final_image_filename : "results/Mosaics/Panstarrs_Mosiac_350_m20.fits"
@@ -36,8 +42,6 @@ starfield_type : "entire_catalogue"
 SourceCat : "350_m20_comissioning"
 
 final_catalogue_name : "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_targets.csv"
-guide_star_filename: "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_guides.csv"
-standard_star_filename: "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_standards.csv"
 
 # Stem to attach to all the tile files we'll make. Will have an underscore after it
 output_filename_stem: "350_m20_comissioning"

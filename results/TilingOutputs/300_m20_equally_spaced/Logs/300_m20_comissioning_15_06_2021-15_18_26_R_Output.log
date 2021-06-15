@@ -1,0 +1,12 @@
+2021-06-15 15:18:48,298: - [1] "********************************************"
+[1] "Configuring field results/TilingOutputs/300_m20_equally_spaced/DistortionCorrected/DC_tile_000.fld"
+[1] "********************************************"
+[1] "Identifying initial conflicts"
+  Probe_1st Probe_2nd PercentArea
+1        11        13         3.4
+[1] "Minimizing the overlaping area by rotating probes"
+[1] "Wrapping around MinimizeConflicts"
+[1] "Starting (again) with delta_ang = 20"
+[1] "19 galaxy probes are in! Let's put some standard stars probes!"
+[1] "Adding some standards."
+

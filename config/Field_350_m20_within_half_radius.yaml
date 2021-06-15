@@ -3,7 +3,7 @@
 filename : "config/Field_350_m20_within_half_radius.yaml"
 FIELD : "350"
 ##################### Star catalogue parameters
-centre_ra : 350
+centre_ra : 351.4
 centre_dec : -22
 
 # How wide we want to make the catalogue
@@ -17,6 +17,10 @@ final_star_catalogue_name_stem : "Panstarrs_match_Gaia_350_m20"
 # This is for the proper motion correction
 # Should be a string which astropy can parse
 date_for_observations : "2021-07-10 14:00"
+
+target_output_name : "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_targets.csv"
+guide_star_filename: "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_guides.csv"
+standard_star_filename: "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_standards.csv"
 
 ##################### Mosaic parameters
 individual_image_glob : "/Volumes/OtherFiles/Science/Panstarrs_Mosaic/350_m22/*.fits"
@@ -35,10 +39,7 @@ starfield_type : "within_half_radius"
 
 SourceCat : "350_m20_comissioning_within_half_radius"
 
-#final_catalogue_name : "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_targets.csv"
 final_catalogue_name : "results/StarCatalogues/350_m22_subset_targets_within_0.75.csv"
-guide_star_filename: "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_guides.csv"
-standard_star_filename: "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_standards.csv"
 
 # Stem to attach to all the tile files we'll make. Will have an underscore after it
 output_filename_stem: "350_m20_comissioning_within_half_radius"

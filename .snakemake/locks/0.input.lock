@@ -1,0 +1,9 @@
+results/TilingOutputs/300_m20_equally_spaced/completed_tiling.done
+config/Field_300_m20_equally_spaced.yaml
+results/StarCatalogues/equally_spaced_300_m22.csv
+results/StarCatalogues/Panstarrs_match_Gaia_300_m20_standards.csv
+results/StarCatalogues/Panstarrs_match_Gaia_300_m20_guides.csv
+results/SkyMasks/Mosaic/segmap_StarField_300_-22.fits
+results/StarCatalogues/Panstarrs_match_Gaia_300_m20_targets.csv
+resources/IDs_for_tile_selection/300_m22_equally_spaced_IDs.txt
+results/Mosaics/Panstarrs_Mosiac_300_m20.fits

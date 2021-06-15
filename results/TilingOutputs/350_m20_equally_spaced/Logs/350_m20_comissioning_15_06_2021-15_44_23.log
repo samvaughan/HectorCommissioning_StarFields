@@ -1,0 +1,26 @@
+2021-06-15 15:44:23,326: - Robot Temperature: 19 C, Obs Temperature: 8 C. date=2021 07 10 14:00
+
+
+2021-06-15 15:44:23,330: - Adding extra columns to the target dataframe
+2021-06-15 15:44:23,331: - Total Targets in field to tile: 19
+
+2021-06-15 15:44:23,332: - Tile 0:
+2021-06-15 15:44:23,332: - 	Remaining Targets: 19
+2021-06-15 15:44:24,534: - 	Distortion-corrected tile saved at results/TilingOutputs/350_m20_equally_spaced/DistortionCorrected/DC_tile_000.fld...
+2021-06-15 15:44:24,534: - 
+	Running Configuration code on file results/TilingOutputs/350_m20_equally_spaced/DistortionCorrected/DC_tile_000.fld...
+2021-06-15 15:44:49,374: - FINISHED TILE 0
+
+
+2021-06-15 15:44:49,378: - Tile 1:
+2021-06-15 15:44:49,379: - 	Remaining Targets: 1
+2021-06-15 15:44:52,024: - 	Distortion-corrected tile saved at results/TilingOutputs/350_m20_equally_spaced/DistortionCorrected/DC_tile_001.fld...
+2021-06-15 15:44:52,025: - 
+	Running Configuration code on file results/TilingOutputs/350_m20_equally_spaced/DistortionCorrected/DC_tile_001.fld...
+2021-06-15 15:45:29,404: - FINISHED TILE 1
+
+
+2021-06-15 15:45:29,409: - 
+
+
+2021-06-15 15:45:29,409: - Done!

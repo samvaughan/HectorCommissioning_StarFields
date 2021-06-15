@@ -35,7 +35,7 @@ rule select_stars:
     # input:
     #     config_filename = expand("config/Field_{field}_m20.yaml", field=config['FIELD'])
     output:
-        targets_file = config['final_catalogue_name'],
+        targets_file = config['target_output_name'],
         standards_file = config['standard_star_filename'],
         guides_file = config['guide_star_filename']
     conda:
@@ -44,12 +44,32 @@ rule select_stars:
         "scripts/select_star_fields.py"
 
 
+if config['starfield_type'] == 'equally_spaced':
+
+    rule mask_targets_catalogue:
+        input:
+            targets_file = rules.select_stars.output.targets_file,
+            IDs_for_masking = config['chosen_IDs']
+        output:
+            final_catalogue_name = config['final_catalogue_name']
+        script:
+            'scripts/mask_star_catalogue.py'
+
+else:
+    rule mask_targets_catalogue:
+        input:
+            targets_file = rules.select_stars.output.targets_file
+        output:
+            final_catalogue_name = config['final_catalogue_name']
+        script:
+            'scripts/mask_star_catalogue.py'
+
 # Run the tiling code
 if config['starfield_type'] == 'equally_spaced':
     rule run_tiling_equally_spaced:
         input: 
             config_filename = config['filename'],
-            targets_file = rules.select_stars.output.targets_file,
+            targets_file = rules.mask_targets_catalogue.output.final_catalogue_name,
             standards_file = rules.select_stars.output.standards_file,
             guides_file = rules.select_stars.output.guides_file,
             profound_skymask = rules.run_profound_on_mosaic.output.profound_mask
@@ -62,7 +82,7 @@ elif config['starfield_type'] == 'within_half_radius':
     rule run_tiling_within_half_radius:
         input: 
             config_filename = config['filename'],
-            targets_file = rules.select_stars.output.targets_file,
+            targets_file = rules.mask_targets_catalogue.output.final_catalogue_name,
             standards_file = rules.select_stars.output.standards_file,
             guides_file = rules.select_stars.output.guides_file,
             profound_skymask = rules.run_profound_on_mosaic.output.profound_mask
@@ -75,7 +95,7 @@ elif config['starfield_type'] == 'entire_catalogue':
     rule run_tiling_entire_catalogue:
         input: 
             config_filename = config['filename'],
-            targets_file = rules.select_stars.output.targets_file,
+            targets_file = rules.mask_targets_catalogue.output.final_catalogue_name,
             standards_file = rules.select_stars.output.standards_file,
             guides_file = rules.select_stars.output.guides_file,
             profound_skymask = rules.run_profound_on_mosaic.output.profound_mask

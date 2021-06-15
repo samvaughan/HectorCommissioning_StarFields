@@ -1,0 +1,41 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	all
+	1	mask_targets_catalogue
+	1	run_tiling_equally_spaced
+	1	select_stars
+	4
+Select jobs to execute...
+
+[Tue Jun 15 16:37:24 2021]
+rule select_stars:
+    output: results/StarCatalogues/Panstarrs_match_Gaia_300_m20_targets.csv, results/StarCatalogues/Panstarrs_match_Gaia_300_m20_standards.csv, results/StarCatalogues/Panstarrs_match_Gaia_300_m20_guides.csv
+    jobid: 3
+
+[Tue Jun 15 16:40:16 2021]
+Finished job 3.
+1 of 4 steps (25%) done
+Select jobs to execute...
+
+[Tue Jun 15 16:40:16 2021]
+rule mask_targets_catalogue:
+    input: results/StarCatalogues/Panstarrs_match_Gaia_300_m20_targets.csv, resources/IDs_for_tile_selection/300_m22_equally_spaced_IDs.txt
+    output: results/StarCatalogues/equally_spaced_300_m22.csv
+    jobid: 2
+
+[Tue Jun 15 16:40:17 2021]
+Finished job 2.
+2 of 4 steps (50%) done
+Select jobs to execute...
+
+[Tue Jun 15 16:40:17 2021]
+rule run_tiling_equally_spaced:
+    input: config/Field_300_m20_equally_spaced.yaml, results/StarCatalogues/equally_spaced_300_m22.csv, results/StarCatalogues/Panstarrs_match_Gaia_300_m20_standards.csv, results/StarCatalogues/Panstarrs_match_Gaia_300_m20_guides.csv, results/SkyMasks/Mosaic/segmap_StarField_300_-22.fits
+    output: results/TilingOutputs/300_m20_equally_spaced/completed_tiling.done
+    jobid: 1
+

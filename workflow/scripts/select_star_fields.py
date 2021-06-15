@@ -89,7 +89,10 @@ df['DEC_pmcorr'] = updated_skycoords.dec.value
 # Select guide stars
 guide_star_mask = df.g_mean_psf_mag < 14.5
 
-guide_stars = df.loc[guide_star_mask]
+if guide_star_mask.sum() > 1000:
+    guide_stars = df.loc[guide_star_mask].sample(1000, random_state=1)
+else:
+    guide_stars = df.loc[guide_star_mask]
 hexabundle_stars = df.loc[(~guide_star_mask) & (df.r_mean_psf_mag > 14)]
 
 
@@ -110,8 +113,20 @@ def standard_star_priority(df):
 hexabundle_stars['StandardStar_X_Value'] = standard_star_priority(hexabundle_stars)
 
 standard_star_mask = hexabundle_stars['StandardStar_X_Value'] < 1
-standard_stars = hexabundle_stars.loc[standard_star_mask]
-target_stars = hexabundle_stars.loc[~standard_star_mask].sample(1000)
+
+
+
+if np.sum(standard_star_mask) > 1000:
+    standard_stars = hexabundle_stars.loc[standard_star_mask]
+    sorted_standards = standard_stars.sort_values('StandardStar_X_Value', ascending=True)
+    standard_stars = sorted_standards.iloc[:1000]
+else:
+    standard_stars = hexabundle_stars.loc[standard_star_mask]
+
+if (~standard_star_mask).sum() > 1000:
+    target_stars = hexabundle_stars.loc[~standard_star_mask].sample(1000, random_state=1)
+else:
+    target_stars = hexabundle_stars.loc[~standard_star_mask]
 
 column_renamer = dict(g_mean_psf_mag='g_mag', r_mean_psf_mag='r_mag', i_mean_psf_mag='i_mag', z_mean_psf_mag='z_mag', y_mean_psf_mag='y_mag', phot_g_mean_mag='GAIA_g_mag', phot_bp_mean_mag='GAIA_bp_mag', phot_rp_mean_mag='GAIA_rp_mag', pmra='pmRA', pmdec='pmDEC')
 

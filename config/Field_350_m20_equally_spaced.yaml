@@ -3,7 +3,7 @@
 filename : "config/Field_350_m20_equally_spaced.yaml"
 FIELD : "350"
 ##################### Star catalogue parameters
-centre_ra : 350
+centre_ra : 351.4
 centre_dec : -22
 
 # How wide we want to make the catalogue
@@ -18,6 +18,11 @@ final_star_catalogue_name_stem : "Panstarrs_match_Gaia_350_m20"
 # Should be a string which astropy can parse
 date_for_observations : "2021-07-10 14:00"
 
+target_output_name : "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_targets.csv"
+guide_star_filename: "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_guides.csv"
+standard_star_filename: "results/StarCatalogues/Panstarrs_match_Gaia_350_m20_standards.csv"
+
+
 ##################### Mosaic parameters
 individual_image_glob : "/Volumes/OtherFiles/Science/Panstarrs_Mosaic/350_m22/*.fits"
 final_image_filename : "results/Mosaics/Panstarrs_Mosiac_350_m20.fits"
@@ -26,9 +31,13 @@ image_resolution_arcsec : 1.5
 
 ##################### Profound Parameters
 #profound_mask_name : "/Volumes/OtherFiles/Science/Panstarrs_Mosaic/SkyMasks/Mosaic/segmap_StarField_350_-22.fits"
-profound_mask_name : "results/SkyMasks/Mosaic/segmap_StarField_350_-22.fits"
+profound_mask_name : "results/SkyMasks/Mosaic/segmap_StarField_351.4_-22.fits"
 profound_catalogue_name : "results/ProfoundCatalogues/profound_catalogue_350_-22.csv"
 profound_zero_mag : 24.76
+
+##################### Masking the catalogue
+chosen_IDs : 'resources/IDs_for_tile_selection/350_m22_equally_spaced_IDs.txt'
+
 
 ##################### Tiling
 
@@ -36,9 +45,7 @@ starfield_type : "equally_spaced"
 
 SourceCat : "350_m20_comissioning"
 
-final_catalogue_name : "results/StarFields/StarCatalogues/equally_spaced_350_m22.csv"
-guide_star_filename: "results/StarFields/StarCatalogues/Panstarrs_match_Gaia_350_m20_guides.csv"
-standard_star_filename: "results/StarFields/StarCatalogues/Panstarrs_match_Gaia_350_m20_standards.csv"
+final_catalogue_name : "results/StarCatalogues/equally_spaced_350_m22.csv"
 
 # Stem to attach to all the tile files we'll make. Will have an underscore after it
 output_filename_stem: "350_m20_comissioning"

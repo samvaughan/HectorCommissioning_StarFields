@@ -1,0 +1,22 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	all
+	1	mask_targets_catalogue
+	1	run_profound_on_mosaic
+	1	run_tiling_equally_spaced
+	4
+Select jobs to execute...
+
+[Tue Jun 15 15:19:01 2021]
+rule run_profound_on_mosaic:
+    input: results/Mosaics/Panstarrs_Mosiac_350_m20.fits
+    output: results/SkyMasks/Mosaic/segmap_StarField_350_-22.fits, results/ProfoundCatalogues/profound_catalogue_350_-22.csv
+    jobid: 4
+
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.

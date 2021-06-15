@@ -19,9 +19,9 @@ with open(config_filename, 'r') as stream:
         print(exc)
 
 
-catalogue_A = pd.read_csv(f"StarCatalogues/{config['final_star_catalogue_name_stem']}_targets.csv")
-catalogue_B = pd.read_csv(f"StarCatalogues/{config['final_star_catalogue_name_stem']}_standards.csv")
-catalogue_C = pd.read_csv(f"StarCatalogues/{config['final_star_catalogue_name_stem']}_guides.csv")
+catalogue_A = pd.read_csv(f"results/StarCatalogues/{config['final_star_catalogue_name_stem']}_targets.csv")
+catalogue_B = pd.read_csv(f"results/StarCatalogues/{config['final_star_catalogue_name_stem']}_standards.csv")
+catalogue_C = pd.read_csv(f"results/StarCatalogues/{config['final_star_catalogue_name_stem']}_guides.csv")
 
 image_hdu = fits.open(config['final_image_filename'])
 wcs = WCS(image_hdu[0].header)

@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	mask_targets_catalogue
+	3
+Select jobs to execute...
+
+[Tue Jun 15 14:36:37 2021]
+rule mask_targets_catalogue:
+    input: results/StarCatalogues/Panstarrs_match_Gaia_300_m20_targets.csv
+    output: results/StarCatalogues/300_m22_subset_targets_within_0.75.csv
+    jobid: 0
+
+[Tue Jun 15 14:36:38 2021]
+Finished job 0.
+1 of 3 steps (33%) done
+Complete log: /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/.snakemake/log/2021-06-15T143636.315217.snakemake.log

@@ -37,6 +37,8 @@ HP.df_targets["Re"] = 1.0
 HP.df_targets['GAL_MU_E_R'] = 19
 HP.df_targets['Mstar'] = -99
 
+import ipdb; ipdb.set_trace()
+
 HP.tile_field(configure_tiles=True, apply_distortion_correction=True, check_sky_fibres=True, date="2021 07 10 14:00") # Time in UTC
 HP.allocate_hexabundles_for_single_tile(0) 
 

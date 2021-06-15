@@ -1,0 +1,3 @@
+WorkflowError in line 44 of /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile:
+Duplicate output file pattern in rule select_stars. First two duplicate for entries targets_file and standards_file
+  File "/Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile", line 44, in <module>
