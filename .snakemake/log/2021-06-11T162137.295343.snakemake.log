@@ -1,0 +1,29 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	all
+	1	run_tiling
+	2
+Select jobs to execute...
+
+[Fri Jun 11 16:21:38 2021]
+rule run_tiling:
+    input: config/Field_240_m20_equally_spaced.yaml, results/StarCatalogues/equally_spaced_240_m22.csv, results/StarCatalogues/Panstarrs_match_Gaia_240_m20_standards.csv, results/StarCatalogues/Panstarrs_match_Gaia_240_m20_guides.csv, results/SkyMasks/Mosaic/segmap_StarField_240_-22.fits
+    output: results/TilingOutputs/240_m20_equally_spaced/completed_tiling.done
+    jobid: 1
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 48 of /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile:
+Job Missing files after 5 seconds:
+results/TilingOutputs/240_m20_equally_spaced/completed_tiling.done
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Job id: 1 completed successfully, but some output files are missing. 1
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 589, in handle_job_success
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 252, in handle_job_success
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/.snakemake/log/2021-06-11T162137.295343.snakemake.log

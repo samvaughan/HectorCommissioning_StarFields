@@ -1,0 +1,14 @@
+2021-06-15 11:34:01,825: - Robot Temperature: 19 C, Obs Temperature: 8 C. date=2021 07 10 14:00
+
+
+2021-06-15 11:34:01,828: - Adding extra columns to the target dataframe
+2021-06-15 11:34:01,841: - Loaded 0 pre-made tiles from a previous run
+2021-06-15 11:34:01,841: - Total Targets in field to tile: 7
+
+2021-06-15 11:34:01,841: - Tile 0:
+2021-06-15 11:34:01,841: - 	Remaining Targets: 7
+2021-06-15 11:34:03,233: - 	Distortion-corrected tile saved at results/TilingOutputs/270_m20/DistortionCorrected/DC_tile_000.fld...
+2021-06-15 11:34:03,233: - 
+	Running Configuration code on file results/TilingOutputs/270_m20/DistortionCorrected/DC_tile_000.fld...
+2021-06-15 11:34:05,855: - 	**Tiling code couldn't configure and timed out... Trying again with a new input tile.**
+	**Proximity value is currently 220.000, 7 targets remaining**

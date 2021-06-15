@@ -1,0 +1,1 @@
+circular_magnet 17 results/TilingOutputs/240_m20_equally_spaced/Configuration/HECTORConfig_Hexa_240_m20_comissioning_000.txt

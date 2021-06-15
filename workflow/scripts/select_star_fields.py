@@ -78,6 +78,8 @@ df['priority'] = 1.0
 #Account for Proper Motion
 # We need a large value of distance in there to avoid an astropy bug- see https://github.com/astropy/astropy/issues/11747
 skycoords = SkyCoord(ra=df.RA.values * u.deg, dec=df.DEC.values * u.deg, pm_ra_cosdec=df.pmra.values * u.mas/u.yr, pm_dec=df.pmdec.values * u.mas/u.yr, obstime=Time(df.ref_epoch.values, format='jyear'), distance=20*u.kpc)
+
+
 updated_skycoords = skycoords.apply_space_motion(Time(config['date_for_observations']))
 
 df['RA_pmcorr'] = updated_skycoords.ra.value
@@ -107,7 +109,7 @@ def standard_star_priority(df):
 
 hexabundle_stars['StandardStar_X_Value'] = standard_star_priority(hexabundle_stars)
 
-standard_star_mask = hexabundle_stars['StandardStar_X_Value'] < 0.5
+standard_star_mask = hexabundle_stars['StandardStar_X_Value'] < 1
 standard_stars = hexabundle_stars.loc[standard_star_mask]
 target_stars = hexabundle_stars.loc[~standard_star_mask].sample(1000)
 
@@ -121,10 +123,13 @@ guide_stars.rename(columns=column_renamer, inplace=True)
 # standard_stars.to_csv(f"StarCatalogues/{config['final_star_catalogue_name_stem']}_standards.csv", index=False)
 # guide_stars.to_csv(f"StarCatalogues/{config['final_star_catalogue_name_stem']}_guides.csv", index=False)
 
+if config['starfield_type'] == 'within_half_radius':
+    mask = (target_stars.RA - config['centre_ra'])**2 + (target_stars.DEC - config['centre_dec'])**2 < 0.75**2
+    target_stars = target_stars.loc[mask]
 
-target_stars.to_csv(snakemake.output.targets_file[0], index=False)
-standard_stars.to_csv(snakemake.output.standards_file[0], index=False)
-guide_stars.to_csv(snakemake.output.guides_file[0], index=False)
+target_stars.to_csv(snakemake.output.targets_file, index=False)
+standard_stars.to_csv(snakemake.output.standards_file, index=False)
+guide_stars.to_csv(snakemake.output.guides_file, index=False)
 
 
 

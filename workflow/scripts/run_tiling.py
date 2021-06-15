@@ -18,7 +18,8 @@ import shlex
 config_filename = snakemake.input.config_filename
 
 # HP = pipeline.HectorPipe(config_filename=config_filename, Profit_files_location=Path("/Volumes/OtherFiles/Science/Panstarrs_Mosaic/SkyMasks/Mosaic/").expanduser())
-HP = pipeline.HectorPipe(config_filename=config_filename, Profit_files_location=Path("SkyMasks/Mosaic/").expanduser())
+skyfiles_location = Path(snakemake.input.profound_skymask).parent
+HP = pipeline.HectorPipe(config_filename=config_filename, Profit_files_location=skyfiles_location)
 
 HP.load_input_catalogue()
 
@@ -37,6 +38,6 @@ HP.df_targets['GAL_MU_E_R'] = 19
 HP.df_targets['Mstar'] = -99
 
 HP.tile_field(configure_tiles=True, apply_distortion_correction=True, check_sky_fibres=True, date="2021 07 10 14:00") # Time in UTC
-HP.allocate_hexabundles_for_single_tile(0) 
+HP.allocate_hexabundles_for_all_tiles()
 
-Path(snakemake.output.completed_flag_file[0]).touch()
+Path(snakemake.output.completed_flag_file).touch()

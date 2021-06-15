@@ -1,0 +1,448 @@
+2021-06-11 17:35:07,532: - [1] "********************************************"
+[1] "Configuring field results/TilingOutputs/240_m20_equally_spaced/DistortionCorrected/DC_tile_000.fld"
+[1] "********************************************"
+[1] "Identifying initial conflicts"
+  Probe_1st Probe_2nd PercentArea
+1         7        11         6.5
+2         8        15         2.8
+3         9        13         0.0
+[1] "Minimizing the overlaping area by rotating probes"
+[1] "Wrapping around MinimizeConflicts"
+[1] "Starting (again) with delta_ang = 20"
+[1] "19 galaxy probes are in! Let's put some standard stars probes!"
+[1] "Adding some standards."
+[1] "standard 1 configured successfully."
+[1] "standard 2 configured successfully."
+$pos
+            x          y
+1   -64.64853   -3.93304
+2    98.10423 -131.61981
+3   -13.04092   68.47495
+4    72.97889  118.27255
+5  -157.42526  133.75938
+6    15.05632   -5.43398
+7  -109.29695  -72.53431
+8  -202.25041   -8.38473
+9   -29.71262 -146.30892
+10  112.87867   68.55124
+11 -178.01759   66.53537
+12   -6.33312  -79.61835
+13  -25.59188 -198.62848
+14 -154.29804 -126.00575
+15 -189.16347  -74.47924
+16  122.15328    0.54746
+17  -17.68133  185.27327
+18  122.61710  -62.64553
+19  -29.82146  124.63853
+65  167.50891 -119.99281
+70  141.55558 -155.02233
+
+$angs
+ [1] -0.7284444  0.7660533  3.3517249  3.0986630  3.0828763  3.7218548
+ [7] -1.0304062 -1.5335255  2.0071293  3.6340445  2.1171444  1.6140338
+[13] -0.7414326  2.5665831  4.4771626  4.1330544  2.8150466  4.3179908
+[19]  3.0900362  4.5918868  0.4647766
+
+$cegs
+ [1] 3 1 2 2 2 2 3 3 1 2 1 1 3 1 3 2 2 2 2 2 1
+
+$stdflag
+[1] "none"
+
+[1] "19 galaxy probes and 2 standard probes are in! Let's put some standard guide probes!"
+              x          y
+NA           NA         NA
+114   -22.37698 -106.66533
+113  -161.67651  -77.92244
+110  -132.29351 -107.40527
+95    -50.40159  -85.02315
+NA.1         NA         NA
+              x         y
+NA           NA        NA
+104    -8.74893 210.71776
+129  -173.76799 110.34685
+92   -141.63315  93.79840
+96   -126.81879 110.99863
+106  -102.72688  89.54791
+88    -15.76121  93.41518
+NA.1         NA        NA
+123   -47.82651  56.99522
+            x         y
+NA         NA        NA
+101  11.90827 205.91294
+116  58.19384   3.34994
+102  29.69173 100.50911
+108   8.19425  96.85526
+NA.1       NA        NA
+107  76.64559  20.12119
+             x          y
+NA          NA         NA
+111  145.93981 -107.00353
+93   142.79549  -90.33465
+135  140.54635  -74.37256
+131  100.56472 -111.21646
+90    78.61992 -118.15505
+122   64.23182 -103.17253
+119   43.17169 -111.97941
+112  114.53331  -24.55324
+127   20.57309 -114.45675
+132    7.32694 -188.76415
+134   15.07114  -91.59906
+NA.1        NA         NA
+97    55.61241  -10.68182
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Minimizing conflicts with guide probe(s):"
+[1] "1"
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Could not configure this guide probe. Will try the next one in the list."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Minimizing conflicts with guide probe(s):"
+[1] "3"
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Minimizing conflicts with guide probe(s):"
+[1] "4"
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Could not configure this guide probe. Will try the next one in the list."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Minimizing conflicts with guide probe(s):"
+[1] "6" "3"
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Identifying clashes with target and/or standard probes"
+[1] "Identifying conflict with other guide probes."
+[1] "Here you go, here's your complete configuration!"
+$pos
+            x          y
+1   -64.64853   -3.93304
+2    98.10423 -131.61981
+3   -13.04092   68.47495
+4    72.97889  118.27255
+5  -157.42526  133.75938
+6    15.05632   -5.43398
+7  -109.29695  -72.53431
+8  -202.25041   -8.38473
+9   -29.71262 -146.30892
+10  112.87867   68.55124
+11 -178.01759   66.53537
+12   -6.33312  -79.61835
+13  -25.59188 -198.62848
+14 -154.29804 -126.00575
+15 -189.16347  -74.47924
+16  122.15328    0.54746
+17  -17.68133  185.27327
+18  122.61710  -62.64553
+19  -29.82146  124.63853
+65  167.50891 -119.99281
+70  141.55558 -155.02233
+
+$rads
+ [1]  64.76806 164.15911  69.70570 138.97595 206.57755  16.00690 131.17564
+ [8] 202.42414 149.29548 132.06387 190.04530  79.86983 200.27036 199.21178
+[15] 203.29775 122.15451 186.11506 137.69319 128.15648 206.05220 209.92833
+
+$angs
+ [1] -0.7284444  0.7660533  3.3517249  3.0986630  3.0828763  3.7218548
+ [7] -1.0304062 -1.5335255  2.0071293  3.6340445  2.1171444  1.6140338
+[13] -0.7414326  2.5665831  4.4771626  4.1330544  2.8150466  4.3179908
+[19]  3.0900362  4.5918868  0.4647766
+
+$azAngs
+ [1]  0.06076238  2.21132165 -1.38260199  4.15953422 -0.70430193  2.79523150
+ [7]  0.58590735  0.04143345  1.37043965  3.68736267 -0.35768072  1.49141998
+[13]  1.44265931  0.68480447  0.37508912  3.14607437 -1.47565069  2.66926018
+[19] -1.33594778  2.51998628  2.31081853
+
+$angs_azAng
+ [1] 5.4939785 4.8379170 4.7343269 5.2223141 3.7871782 0.9266233 4.6668717
+ [8] 4.7082263 0.6366896 6.2298671 2.4748251 0.1226138 4.0990934 1.8817786
+[15] 4.1020735 0.9869800 4.2906973 1.6487307 4.4259839 2.0719005 4.4371434
+
+$guidenum
+[1] 2 3 4 6 7 8
+
+$gpos
+             x          y
+104   -8.74893  210.71776
+101   11.90827  205.91294
+111  145.93981 -107.00353
+129 -173.76799  110.34685
+116   58.19384    3.34994
+93   142.79549  -90.33465
+
+$grads
+[1] 210.89931 206.25699 180.96459 205.84397  58.29018 168.97012
+
+$gangs
+[1] 0.4815879 2.6735754 0.7636702 3.1487731 3.8146809 0.5400093
+
+$gazAngs
+[1] -1.5293005  4.6546217  2.5089285 -0.5657752  3.1990944  2.5775357
+
+$gangs_gazAng
+[1] 2.0108884 4.3021390 4.5379271 3.7145483 0.6155865 4.2456589
+
+$swaps
+[1] FALSE
+
+$flags
+[1] "none"
+
+[1] "There were  0  unresolvable conflicts in the field"
+[1] "********************************************"
+[1] "Writing outputs to results/TilingOutputs/240_m20_equally_spaced/Configuration/HECTORConfig_Hexa_240_m20_comissioning_000.txt"
+[1] "********************************************"
+

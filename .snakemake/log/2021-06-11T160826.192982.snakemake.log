@@ -1,0 +1,3 @@
+WorkflowError in line 29 of /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile:
+Duplicate output file pattern in rule run_profound_on_mosaic. First two duplicate for entries profound_mask and profound_catalogue
+  File "/Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile", line 29, in <module>

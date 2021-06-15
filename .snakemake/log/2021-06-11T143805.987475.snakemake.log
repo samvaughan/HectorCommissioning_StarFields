@@ -15,3 +15,7 @@ rule run_profound_on_mosaic:
     output: results/SkyMasks/Mosaic/segmap_StarField_240_-22.fits, results/ProfoundCatalogues/profound_catalogue_240_-22.csv
     jobid: 0
 
+[Fri Jun 11 15:56:58 2021]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/.snakemake/log/2021-06-11T143805.987475.snakemake.log

@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	all
+	1	run_tiling
+	2
+Select jobs to execute...
+
+[Fri Jun 11 16:11:45 2021]
+rule run_tiling:
+    input: config/Field_240_m20_equally_spaced.yaml, results/StarCatalogues/equally_spaced_240_m22.csv, results/StarCatalogues/Panstarrs_match_Gaia_240_m20_standards.csv, results/StarCatalogues/Panstarrs_match_Gaia_240_m20_guides.csv, results/SkyMasks/Mosaic/segmap_StarField_240_-22.fits
+    output: results/TilingOutputs/240_m20_equally_spaced/completed_tiling.done
+    jobid: 1
+
+Terminating processes on user request, this might take some time.
+[Fri Jun 11 16:11:56 2021]
+Error in rule run_tiling:
+    jobid: 1
+    output: results/TilingOutputs/240_m20_equally_spaced/completed_tiling.done
+
+RuleException:
+CalledProcessError in line 58 of /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile:
+Command 'set -euo pipefail;  /opt/anaconda3/envs/snakemake/bin/python3.9 /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/.snakemake/scripts/tmpnysv2x87.run_tiling.py' died with <Signals.SIGINT: 2>.
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2357, in run_wrapper
+  File "/Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile", line 58, in __rule_run_tiling
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 574, in _callback
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in cached_or_run
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2390, in run_wrapper
+Complete log: /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/.snakemake/log/2021-06-11T161144.761564.snakemake.log
