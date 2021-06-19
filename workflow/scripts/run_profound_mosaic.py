@@ -18,9 +18,9 @@ import shlex
 #     except yaml.YAMLError as exc:
 #         print(exc)
 
-input_image = snakemake.input.input_image[0]
-output_mask = snakemake.output.profound_mask[0]
-output_catalogue = snakemake.output.profound_catalogue[0]
+input_image = snakemake.input.input_image
+output_mask = snakemake.output.profound_mask
+output_catalogue = snakemake.output.profound_catalogue
 zeromag = snakemake.config['profound_zero_mag']
 
 bash_command = f'workflow/scripts/profound_r_script.R {input_image} {output_mask} {output_catalogue} --mag_zero {zeromag}'

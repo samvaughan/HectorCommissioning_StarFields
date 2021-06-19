@@ -2,18 +2,44 @@
 # The final output 
 rule all:
     input:
-        completed_flag_file = f"{config['output_folder']}/completed_tiling.done"
+        completed_flag_file = f"{config['output_folder']}/completed_tiling.done",
+        email_sent_file = f"{config['output_folder']}/email_sent.done"
 
-# Make the mosaic using our input files
-rule make_mosaic:
-    # input:
-    #     config_filename = expand("config/Field_{field}_m20.yaml", field=config['FIELD'])
-    output:
-        output_image = config['final_image_filename']
-    conda:
-        "envs/scientific_python.yaml"
-    script:
-        "scripts/make_mosaic.py"
+
+# See whether we want to download the individual image files
+if config['download_files']:
+    indices = [f'{n:03}' for n in range(100)]
+    rule download_images:
+        output: 
+            image_list = expand(["results/Individual_images/{field}/rings.v3.skycell.{skycell}.{index}.stk.r.unconv.fits"], index=indices, skycell=config['skycell'], field=config['FIELD'])
+        conda:
+            "envs/scientific_python.yaml"
+        shell:
+            f"workflow/scripts/download_mosaics.sh {config['skycell']} results/Individual_images/{config['FIELD']}"
+            
+
+    # Make the mosaic using our input files as a list
+    rule make_mosaic:
+        input:
+            images = rules.download_images.output.image_list
+        output:
+            output_image = config['final_image_filename']
+        conda:
+            "envs/scientific_python.yaml"
+        script:
+            "scripts/make_mosaic.py"
+
+else:
+    # Make the mosaic using our input files as a glob command
+    rule make_mosaic:
+        input:
+            image_glob = config['individual_image_glob']
+        output:
+            output_image = config['final_image_filename']
+        conda:
+            "envs/scientific_python.yaml"
+        script:
+            "scripts/make_mosaic.py"
 
 # Run profound on this mosaic
 rule run_profound_on_mosaic:
@@ -107,3 +133,14 @@ else:
     rule raise_name_error:
         run:
             raise NameError("Not sure which tiling program to run! Check 'starfield_type' in the config file")
+
+
+# Send myself an empty message when the pipeline is done
+rule inform_finished:
+    input: 
+        rules.all.input.completed_flag_file
+    output:
+        rules.all.input.email_sent_file
+    run:
+        shell(f"mail -s 'Pipeline {config['output_folder']} Finished' samvaughan01@gmail.com < /dev/null")
+        shell("touch {output}")

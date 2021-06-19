@@ -33,11 +33,12 @@ HP.df_standard_stars['type'] = 1
 HP.df_targets['N_observations_to_complete'] = 1
 HP.df_targets['remaining_observations'] = HP.df_targets['N_observations_to_complete'].copy()
 
+HP.df_targets['z'] = 0.0
 HP.df_targets["Re"] = 1.0
 HP.df_targets['GAL_MU_E_R'] = 19
 HP.df_targets['Mstar'] = -99
 
-HP.tile_field(configure_tiles=False, apply_distortion_correction=True, check_sky_fibres=True, date="2021 07 10 14:00") # Time in UTC
-#HP.allocate_hexabundles_for_all_tiles()
+HP.tile_field(configure_tiles=True, apply_distortion_correction=True, check_sky_fibres=True, date="2021 07 10 14:00") # Time in UTC
+HP.allocate_hexabundles_for_all_tiles()
 
 Path(snakemake.output.completed_flag_file).touch()

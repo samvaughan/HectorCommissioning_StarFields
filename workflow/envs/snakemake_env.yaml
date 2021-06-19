@@ -1,0 +1,28 @@
+name: snakemake
+channels:
+  - defaults
+dependencies:
+  - snakemake
+  - matplotlib
+  - openpyxl
+  - astropy
+  - reproject
+  - ipdb
+  - pystan
+  - astroquery
+  - mamba
+  - r-base
+  - r-astrofns
+  - r-plotrix
+  - r-pbsmapping
+  - r-rgeos
+  - r-pracma
+  - r-yaml
+  - r-raster
+  - r-desctools
+  - r-magicaxis
+  - r-codetools
+  - r-r.utils
+  - r-argparse
+  - r-celestial
+prefix: /opt/anaconda3/envs/snakemake

@@ -1,0 +1,35 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	all
+	1	run_tiling_within_half_radius
+	2
+Select jobs to execute...
+
+[Wed Jun 16 12:56:51 2021]
+rule run_tiling_within_half_radius:
+    input: config/Field_350_m20_within_half_radius.yaml, results/StarCatalogues/350_m22_subset_targets_within_0.75.csv, results/StarCatalogues/Panstarrs_match_Gaia_350_m20_standards.csv, results/StarCatalogues/Panstarrs_match_Gaia_350_m20_guides.csv, results/SkyMasks/Mosaic/segmap_StarField_351.4_-22.fits
+    output: results/TilingOutputs/350_m20_within_half_radius/completed_tiling.done
+    jobid: 1
+
+[Wed Jun 16 12:56:54 2021]
+Error in rule run_tiling_within_half_radius:
+    jobid: 1
+    output: results/TilingOutputs/350_m20_within_half_radius/completed_tiling.done
+
+RuleException:
+CalledProcessError in line 92 of /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile:
+Command 'set -euo pipefail;  /opt/anaconda3/envs/snakemake/bin/python3.9 /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/.snakemake/scripts/tmpqjcp5ygw.run_tiling.py' returned non-zero exit status 1.
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2357, in run_wrapper
+  File "/Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile", line 92, in __rule_run_tiling_within_half_radius
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 574, in _callback
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in cached_or_run
+  File "/opt/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2390, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/.snakemake/log/2021-06-16T125650.991918.snakemake.log

@@ -23,6 +23,10 @@ target_output_name : "results/StarCatalogues/Panstarrs_match_Gaia_300_m20_target
 guide_star_filename: "results/StarCatalogues/Panstarrs_match_Gaia_300_m20_guides.csv"
 standard_star_filename: "results/StarCatalogues/Panstarrs_match_Gaia_300_m20_standards.csv"
 
+##################### Mosaic download
+download_files : False
+skycell : "N/A"
+
 
 ##################### Mosaic parameters
 individual_image_glob : "/Volumes/OtherFiles/Science/Panstarrs_Mosaic/300_m20/*.fits"
@@ -76,7 +80,8 @@ Rescale_proximity: True
 
 fill_spares_with_repeats: True
 
-columns_for_target_tile_saving : ['ID', 'RA', 'DEC', 'g_mag', 'r_mag', 'i_mag', 'z_mag', 'y_mag', 'GAIA_g_mag', 'GAIA_bp_mag', 'GAIA_rp_mag', 'pmRA', 'pmDEC']
+columns_for_target_tile_saving : ['ID', 'RA', 'DEC', 'g_mag', 'r_mag', 'i_mag', 'z_mag', 'y_mag', 'GAIA_g_mag', 
+'GAIA_bp_mag', 'GAIA_rp_mag', 'Mstar', 'Re', 'z', 'GAL_MU_E_R', 'pmRA', 'pmDEC']
 
 columns_for_guide_tile_saving : ['ID', 'RA', 'DEC', 'r_mag', 'type', 'pmRA', 'pmDEC']
 

@@ -1,0 +1,1 @@
+circular_magnet 8 results/TilingOutputs/350_m20_within_half_radius/Configuration/HECTORConfig_Hexa_350_m20_comissioning_within_half_radius_002.txt

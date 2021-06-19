@@ -74,6 +74,11 @@ df = r.to_pandas()
 df.rename(columns=dict(ra='RA', dec='DEC', source_id='ID'), inplace=True)
 df.dropna(inplace=True)
 df['priority'] = 1.0
+# Add in columns for Re, z, Mstar and surface brightness
+df['z'] = 0.0
+df['Re'] = 1.0
+df['Mstar'] = -99
+df['GAL_MU_E_R'] = 19.0
 
 #Account for Proper Motion
 # We need a large value of distance in there to avoid an astropy bug- see https://github.com/astropy/astropy/issues/11747

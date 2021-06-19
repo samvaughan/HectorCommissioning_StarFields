@@ -17,16 +17,13 @@ import yaml
 # args = parser.parse_args()
 
 # config_filename = Path(args.Config_filename)
-config_filename = snakemake.input[0]
+config = snakemake.config
 
-with open(config_filename, 'r') as stream:
-    try:
-        config = yaml.safe_load(stream)
-    except yaml.YAMLError as exc:
-        print(exc)
+if config['download_files']:
+    all_files = snakemake.input
+else:
+    all_files = glob.glob(snakemake.input)
 
-
-all_files = glob.glob(config['individual_image_glob'])
 
 all_hdus = []
 for h in tqdm(all_files):
