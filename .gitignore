@@ -1,2 +1,4 @@
 *.fits
 *.csv
+results/
+.snakemake

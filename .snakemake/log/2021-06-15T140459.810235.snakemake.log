@@ -1,3 +1,0 @@
-AttributeError in line 74 of /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile:
-'Namedlist' object has no attribute 'targets_file'
-  File "/Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile", line 74, in <module>

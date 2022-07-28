@@ -1,3 +1,0 @@
-AttributeError in line 29 of /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile:
-'Rules' object has no attribute 'download_images'
-  File "/Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile", line 29, in <module>

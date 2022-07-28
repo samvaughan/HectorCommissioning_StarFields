@@ -2,8 +2,11 @@
 # The final output 
 rule all:
     input:
-        completed_flag_file = f"{config['output_folder']}/completed_tiling.done",
-        email_sent_file = f"{config['output_folder']}/email_sent.done"
+        # completed_flag_file = f"{config['output_folder']}/completed_tiling.done",
+        # email_sent_file = f"{config['output_folder']}/email_sent.done"
+        #profound_mask = config['profound_mask_name'],
+        targets_file = config['target_output_name'],
+
 
 
 # See whether we want to download the individual image files
@@ -58,8 +61,8 @@ rule run_profound_on_mosaic:
 
 # Select stars for our fields
 rule select_stars:
-    # input:
-    #     config_filename = expand("config/Field_{field}_m20.yaml", field=config['FIELD'])
+    input:
+        Gaia_credientials = "resources/Gaia_login.txt"
     output:
         targets_file = config['target_output_name'],
         standards_file = config['standard_star_filename'],
@@ -70,77 +73,77 @@ rule select_stars:
         "scripts/select_star_fields.py"
 
 
-if config['starfield_type'] == 'equally_spaced':
+# if config['starfield_type'] == 'equally_spaced':
 
-    rule mask_targets_catalogue:
-        input:
-            targets_file = rules.select_stars.output.targets_file,
-            IDs_for_masking = config['chosen_IDs']
-        output:
-            final_catalogue_name = config['final_catalogue_name']
-        script:
-            'scripts/mask_star_catalogue.py'
+#     rule mask_targets_catalogue:
+#         input:
+#             targets_file = rules.select_stars.output.targets_file,
+#             IDs_for_masking = config['chosen_IDs']
+#         output:
+#             final_catalogue_name = config['final_catalogue_name']
+#         script:
+#             'scripts/mask_star_catalogue.py'
 
-else:
-    rule mask_targets_catalogue:
-        input:
-            targets_file = rules.select_stars.output.targets_file
-        output:
-            final_catalogue_name = config['final_catalogue_name']
-        script:
-            'scripts/mask_star_catalogue.py'
+# else:
+#     rule mask_targets_catalogue:
+#         input:
+#             targets_file = rules.select_stars.output.targets_file
+#         output:
+#             final_catalogue_name = config['final_catalogue_name']
+#         script:
+#             'scripts/mask_star_catalogue.py'
 
-# Run the tiling code
-if config['starfield_type'] == 'equally_spaced':
-    rule run_tiling_equally_spaced:
-        input: 
-            config_filename = config['filename'],
-            targets_file = rules.mask_targets_catalogue.output.final_catalogue_name,
-            standards_file = rules.select_stars.output.standards_file,
-            guides_file = rules.select_stars.output.guides_file,
-            profound_skymask = rules.run_profound_on_mosaic.output.profound_mask
-        output:
-            completed_flag_file = rules.all.input.completed_flag_file
-        script:
-            "scripts/run_tiling_equally_spaced.py"
+# # Run the tiling code
+# if config['starfield_type'] == 'equally_spaced':
+#     rule run_tiling_equally_spaced:
+#         input: 
+#             config_filename = config['filename'],
+#             targets_file = rules.mask_targets_catalogue.output.final_catalogue_name,
+#             standards_file = rules.select_stars.output.standards_file,
+#             guides_file = rules.select_stars.output.guides_file,
+#             profound_skymask = rules.run_profound_on_mosaic.output.profound_mask
+#         output:
+#             completed_flag_file = rules.all.input.completed_flag_file
+#         script:
+#             "scripts/run_tiling_equally_spaced.py"
 
-elif config['starfield_type'] == 'within_half_radius':
-    rule run_tiling_within_half_radius:
-        input: 
-            config_filename = config['filename'],
-            targets_file = rules.mask_targets_catalogue.output.final_catalogue_name,
-            standards_file = rules.select_stars.output.standards_file,
-            guides_file = rules.select_stars.output.guides_file,
-            profound_skymask = rules.run_profound_on_mosaic.output.profound_mask
-        output:
-            completed_flag_file = rules.all.input.completed_flag_file
-        script:
-            "scripts/run_tiling.py"
+# elif config['starfield_type'] == 'within_half_radius':
+#     rule run_tiling_within_half_radius:
+#         input: 
+#             config_filename = config['filename'],
+#             targets_file = rules.mask_targets_catalogue.output.final_catalogue_name,
+#             standards_file = rules.select_stars.output.standards_file,
+#             guides_file = rules.select_stars.output.guides_file,
+#             profound_skymask = rules.run_profound_on_mosaic.output.profound_mask
+#         output:
+#             completed_flag_file = rules.all.input.completed_flag_file
+#         script:
+#             "scripts/run_tiling.py"
 
-elif config['starfield_type'] == 'entire_catalogue':
-    rule run_tiling_entire_catalogue:
-        input: 
-            config_filename = config['filename'],
-            targets_file = rules.mask_targets_catalogue.output.final_catalogue_name,
-            standards_file = rules.select_stars.output.standards_file,
-            guides_file = rules.select_stars.output.guides_file,
-            profound_skymask = rules.run_profound_on_mosaic.output.profound_mask
-        output:
-            completed_flag_file = rules.all.input.completed_flag_file
-        script:
-            "scripts/run_tiling.py"
-else:
-    rule raise_name_error:
-        run:
-            raise NameError("Not sure which tiling program to run! Check 'starfield_type' in the config file")
+# elif config['starfield_type'] == 'entire_catalogue':
+#     rule run_tiling_entire_catalogue:
+#         input: 
+#             config_filename = config['filename'],
+#             targets_file = rules.mask_targets_catalogue.output.final_catalogue_name,
+#             standards_file = rules.select_stars.output.standards_file,
+#             guides_file = rules.select_stars.output.guides_file,
+#             profound_skymask = rules.run_profound_on_mosaic.output.profound_mask
+#         output:
+#             completed_flag_file = rules.all.input.completed_flag_file
+#         script:
+#             "scripts/run_tiling.py"
+# else:
+#     rule raise_name_error:
+#         run:
+#             raise NameError("Not sure which tiling program to run! Check 'starfield_type' in the config file")
 
 
-# Send myself an empty message when the pipeline is done
-rule inform_finished:
-    input: 
-        rules.all.input.completed_flag_file
-    output:
-        rules.all.input.email_sent_file
-    run:
-        shell(f"mail -s 'Pipeline {config['output_folder']} Finished' samvaughan01@gmail.com < /dev/null")
-        shell("touch {output}")
+# # Send myself an empty message when the pipeline is done
+# rule inform_finished:
+#     input: 
+#         rules.all.input.completed_flag_file
+#     output:
+#         rules.all.input.email_sent_file
+#     run:
+#         shell(f"mail -s 'Pipeline {config['output_folder']} Finished' samvaughan01@gmail.com < /dev/null")
+#         shell("touch {output}")

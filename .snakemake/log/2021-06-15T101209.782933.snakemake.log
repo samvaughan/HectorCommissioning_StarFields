@@ -1,5 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 62 of /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile:
-Missing input files for rule run_tiling_within_half_radius:
-results/StarCatalogues/Panstarrs_match_Gaia_350_m20_standards.csv
-results/StarCatalogues/Panstarrs_match_Gaia_350_m20_guides.csv

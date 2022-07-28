@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 12 of /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile:
-Missing input files for rule download_images:
-873

@@ -1,7 +1,0 @@
-IndexError in line 8 of /Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile:
-tuple index out of range
-  File "/Users/samvaughan/Science/Hector/Targets/HectorInputCatalogues/Commissioning/StarFields/workflow/Snakefile", line 8, in <module>
-  File "/opt/anaconda3/envs/snakemake/lib/python3.9/string.py", line 165, in vformat
-  File "/opt/anaconda3/envs/snakemake/lib/python3.9/string.py", line 205, in _vformat
-  File "/opt/anaconda3/envs/snakemake/lib/python3.9/string.py", line 270, in get_field
-  File "/opt/anaconda3/envs/snakemake/lib/python3.9/string.py", line 225, in get_value
