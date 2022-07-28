@@ -1,4 +1,4 @@
 *.fits
 *.csv
-results/
+results/*
 .snakemake
